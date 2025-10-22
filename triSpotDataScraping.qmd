@@ -1,0 +1,150 @@
+
+```{r}
+library(jsonlite)
+library(tidyverse)
+library(janitor)
+library(tibble)
+
+scrapeData <- function(raceID, setID, maxPages = 10){
+  all_pages <- list()
+  
+  for (pageNum in 1:maxPages) {
+    url <- paste0("https://www.trisignup.com/Race/Results/", raceID, 
+                  "?resultSetId=", setID, "&perpage=5000&page=", pageNum, "&format=json")
+    
+    raw_data <- fromJSON(url)
+    
+    df <- raw_data$resultSet$results |> 
+      map_dfr(as_tibble) |> 
+      clean_names()
+    
+    if (nrow(df) == 0) break
+    
+    dataList <- df[[1]]
+    rowsPerPage <- nrow(df) / 27
+    numVariables <- length(dataList) / rowsPerPage
+    
+    result_df <- matrix(dataList, nrow = rowsPerPage, byrow = FALSE) |>
+      as_tibble(.name_repair = "minimal")
+    
+    colnames(result_df) <- c("Place", "Name", "College", "State", "Bib", "Gender", "ChipTime", "SwimRank", "SwimTime", 
+                             "SwimPace", "T1Time", "BikeRank", "BikeTime", "BikePace", "T2Time", "RunRank", "RunTime",
+                             "RunPace", "City", "Country", "21", "22", "Age", "24", "25", "AgeCategory", "27")
+    
+    all_pages[[length(all_pages) + 1]] <- result_df
+  }
+  final_df <- bind_rows(all_pages)
+  final_df <- final_df |> 
+    mutate(RaceID = raceID,
+           SetID = setID)
+  return(final_df)
+}
+
+#df <- scrapeData(13387, 579154)
+
+```
+
+```{r}
+ID_Pairs <- c(13387,579154, #Patriot Sprint
+              13392, 585319, #Giant Acorn Olympic
+              56021,591858, #Pleasant Landing Sprint
+              56021, 591868) #Pleasant Landing Olympic 
+
+raceID_df <- matrix(ID_Pairs, ncol = 2, byrow = TRUE) |>
+  as_tibble(.name_repair = "minimal") |>
+  setNames(c("race_id", "set_id")) |> 
+  mutate(raceName = c("Patriot's", "Giant Acorn", "Pleasant's Landing", "Pleasant's Landing")) |> 
+  mutate(raceDistance = c("Sprint", "Olympic", "Sprint", "Olympic")) |> 
+  mutate(year = c(2025, 2025, 2025, 2025))
+
+```
+
+```{r}
+all_results <- raceID_df |>
+  mutate(
+    data = map2(race_id, set_id, ~ scrapeData(.x, .y))
+  ) |>
+  select(data, raceName, raceDistance, year) |>
+  unnest(data)
+```
+
+Filter results to per person
+```{r}
+filterResults <- function(results_df, name){
+  filtered_df <- results_df |> 
+    filter(Name == name)
+  
+  basicDetails <- filtered_df |> 
+    summarise(
+      Name = first(Name),
+      College = max(College),
+      State = max(State),
+      City = max(City),
+      Country = max(Country),
+      Gender = first(Gender),
+      Age = max(Age)
+    )
+  
+  sprintPRResults <- filtered_df |> 
+    filter(raceDistance == "Sprint") |> 
+    summarise(
+      Name = first(Name),
+      PR_Time_Sprint = min(ChipTime),
+      PR_Swim_Time_Sprint = min(SwimTime),
+      PR_Swim_Pace_Sprint = min(SwimPace),
+      PR_Bike_Time_Sprint = min(BikeTime),
+      PR_Bike_Pace_Sprint = min(BikePace),
+      PR_Run_Time_Sprint = min(RunTime),
+      PR_Run_Pace_Sprint = min(RunPace)
+    )
+  
+  olympicPRResults <- filtered_df |> 
+    filter(raceDistance == "Olympic") |> 
+    summarise(
+      Name = first(Name),
+      PR_Time_Olympic = min(ChipTime),
+      PR_Swim_Time_Olympic = min(SwimTime),
+      PR_Swim_Pace_Olympic = min(SwimPace),
+      PR_Bike_Time_Olympic = min(BikeTime),
+      PR_Bike_Pace_Olympic = min(BikePace),
+      PR_Run_Time_Olympic = min(RunTime),
+      PR_Run_Pace_Olympic = min(RunPace)
+    )
+  
+  transitionPRResults <- filtered_df |> 
+    summarise(
+      Name = first(Name),
+      PR_T1 = min(T1Time),
+      PR_T2 = min(T2Time)
+    )
+  
+  advancedDetails <- basicDetails |> 
+    left_join(sprintPRResults, by = "Name") |> 
+    left_join(olympicPRResults, by = "Name") |> 
+    left_join(transitionPRResults, by = "Name")
+  
+  advancedDetails
+}
+
+filterResults(all_results, "Charlie Keglovitz")
+
+```
+
+```{r}
+uniqueNames <- unique(all_results$Name)
+all_df <- map_dfr(uniqueNames, ~ filterResults(all_results, .x))
+athleteInformation_df <- pr_df |> 
+  select(Name, College, State, City, Country, Gender, Age)
+
+pr_df <- all_df |> 
+  select(-College, -State, -City, -Country, -Gender, -Age)
+```
+
+```{r}
+write_csv(pr_df, "personalRecords.csv")
+write_csv(athleteInformation_df, "athleteInformation.csv")
+```
+
+
+
+
