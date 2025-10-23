@@ -4,6 +4,7 @@ library(jsonlite)
 library(tidyverse)
 library(janitor)
 library(tibble)
+library(hms)
 
 scrapeData <- function(raceID, setID, maxPages = 10){
   all_pages <- list()
@@ -133,11 +134,34 @@ filterResults(all_results, "Charlie Keglovitz")
 ```{r}
 uniqueNames <- unique(all_results$Name)
 all_df <- map_dfr(uniqueNames, ~ filterResults(all_results, .x))
-athleteInformation_df <- pr_df |> 
+athleteInformation_df <- all_df |> 
   select(Name, College, State, City, Country, Gender, Age)
 
 pr_df <- all_df |> 
   select(-College, -State, -City, -Country, -Gender, -Age)
+
+#Convert to seconds
+to_seconds <- function(x) {
+  x <- str_replace_all(x, "\\.[0-9]+", "")
+  parsed <- parse_hms(
+    case_when(
+      str_detect(x, "^\\d{1,2}:\\d{2}$") ~ paste0("00:", x),
+      TRUE ~ x
+    )
+  )
+  as.integer(parsed)  # seconds
+}
+
+time_cols <- c(
+  "PR_Time_Sprint","PR_Swim_Time_Sprint","PR_Swim_Pace_Sprint",
+  "PR_Bike_Time_Sprint","PR_Run_Time_Sprint","PR_Run_Pace_Sprint",
+  "PR_Time_Olympic","PR_Swim_Time_Olympic","PR_Swim_Pace_Olympic",
+  "PR_Bike_Time_Olympic","PR_Run_Time_Olympic","PR_Run_Pace_Olympic",
+  "PR_T1","PR_T2"
+)
+
+pr_df <- pr_df |>
+  mutate(across(all_of(time_cols), to_seconds))
 ```
 
 ```{r}
