@@ -5,11 +5,13 @@ library(rlang)
 #Source Files
 source("athleteInformation.R")
 source("personalRecords.R")
+source("raceResults.R")
 
 
 #Load Data
 prData <- read_csv("personalRecords.csv")
 athleteInformation <- read_csv("athleteInformation.csv")
+allResults <- read_csv("allResults.csv")
 
 
 #Data Processing
@@ -26,13 +28,16 @@ ui <- fluidPage(
     style = "min-height: 100vh; position: relative;",
 
     # Fixed athlete selector
-    absolutePanel(
-      top   = "5%", left = "2%", width = "250px",
-      selectInput(
-        inputId  = "selected_athlete",
-        label    = "Search...",
-        choices  = NULL,
-        selected = NULL
+    conditionalPanel(
+      condition = "input.main_tabs === 'Athlete Home Page'",
+      absolutePanel(
+        top   = "5%", left = "2%", width = "250px",
+        selectInput(
+          inputId  = "selected_athlete",
+          label    = "Search...",
+          choices  = NULL,
+          selected = NULL
+        )
       )
     ),
     
@@ -90,12 +95,22 @@ server <- function(input, output, session) {
     }
   })
   
+  college_logo <- reactive({
+    college <- athleteInformationData()$College[1]
+
+    rel <- file.path("logos", paste0(college, ".png"))
+    abs <- file.path("www", rel)
+    
+    if (file.exists(abs)) rel else NULL
+  })
+  
   output$mainContent <- renderUI({
     req(input$selected_athlete)
     player <- input$selected_athlete
     
     tabs <- list()
     
+    #Athlete Home Page Panel
     tabs <- append(tabs, list(
       tabPanel("Athlete Home Page",
                # Athlete Information Panel
@@ -117,6 +132,20 @@ server <- function(input, output, session) {
       )
     ))
     
+    #Race Results Panel
+    tabs <- append(tabs, list(
+      tabPanel("Race Results",
+               # Race Results Panel
+               absolutePanel(
+                 top    = "5%",
+                 bottom = "2%",
+                 left   = "2%",
+                 width  = "70%",
+                 athleteInformationUI("raceResults")
+               )
+      )
+    ))
+    
     # If no tabs, show a placeholder
     if (length(tabs) == 0) {
       div("No data available for this athlete")
@@ -134,7 +163,8 @@ server <- function(input, output, session) {
     id           = "athleteInformation",
     details_df   = athleteInformationData,
     action_img   = action_photo,
-    headshot_img = headshot_photo
+    headshot_img = headshot_photo,
+    logo_img     = college_logo
   )
   
   # Personal records server
@@ -145,6 +175,14 @@ server <- function(input, output, session) {
         filter(Name == selected_athlete())
     })
   )
+  
+  #Race Results Server
+  #raceResultsServer(
+  #  id = "raceResults",
+  #  race_df = reactive({
+  #    allResults
+  #  })
+  #)
   
 }
 

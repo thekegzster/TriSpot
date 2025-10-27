@@ -1,0 +1,386 @@
+Place,Name,College,State,Bib,Gender,ChipTime,SwimRank,SwimTime,SwimPace,T1Time,BikeRank,BikeTime,BikePace,T2Time,RunRank,RunTime,RunPace,City,Country,21,22,Age,24,PlaceAgeCategory,AgeCategory,27,RaceID,SetID,raceName,raceDistance,year
+1,Boden Gentile,,VA,1355,M,3541,7,624,83,141,1,1745,25.7 mph,64,1,968,311,Charlottesville,US,,,21,,1,M 1-99,,13387,579154,Patriot's,Sprint,2025
+2,Samir Varma,,VA,1372,M,3672,3,612,82,115,2,1892,23.7 mph,56,4,997,321,Charlottesville,US,,,23,,2,M 1-99,,13387,579154,Patriot's,Sprint,2025
+3,Yan Son Wong,,MD,1005,M,3840,8,626,83,111,7,1999,22.4 mph,54,13,1050,338,Annapolis,US,,,21,,3,M 1-99,,13387,579154,Patriot's,Sprint,2025
+4,Tyler Weeks,,VA,1204,M,3884,26,713,95,136,5,1953,22.9 mph,49,10,1034,333,Springfield,US,,,22,,4,M 1-99,,13387,579154,Patriot's,Sprint,2025
+5,Christopher Barnard,,LA,1205,M,3939,4,614,82,119,14,2055,21.8 mph,46,23,1105,356,Shreveport,US,,,20,,5,M 1-99,,13387,579154,Patriot's,Sprint,2025
+6,Take Zoot,,MD,1011,M,3956,20,694,92,130,10,2022,22.1 mph,51,16,1060,341,Annapolis,US,,,21,,6,M 1-99,,13387,579154,Patriot's,Sprint,2025
+7,Warren Thiel,,VA,1127,M,3964,19,687,92,118,21,2123,21.1 mph,47,3,990,319,Blacksburg,US,,,24,,7,M 1-99,,13387,579154,Patriot's,Sprint,2025
+8,Matthew Stelmokas,,MA,1311,M,3975,10,632,84,123,19,2110,21.2 mph,51,15,1060,341,Belchertown,US,,,22,,8,M 1-99,,13387,579154,Patriot's,Sprint,2025
+9,Charles Weber,,IN,1208,M,3980,22,701,93,121,11,2024,22.1 mph,52,19,1084,349,South Bend,US,,,20,,9,M 1-99,,13387,579154,Patriot's,Sprint,2025
+10,Drew Yost,,VA,1143,M,3990,15,674,90,121,13,2038,22 mph,66,20,1091,351,Herndon,US,,,21,,10,M 1-99,,13387,579154,Patriot's,Sprint,2025
+11,Maxwell Rowe,,IL,1016,M,4008,49,773,103,124,3,1916,23.4 mph,47,28,1147,369,Yorkville,US,,,19,,11,M 1-99,,13387,579154,Patriot's,Sprint,2025
+12,Rebecca Jansen,,DE,1235,F,4008,11,640,85,120,17,2087,21.4 mph,51,24,1110,357,Dover,US,,,20,,1,F 1-99,,13387,579154,Patriot's,Sprint,2025
+13,Andrew Bickford,,VA,1255,M,4011,54,793,106,124,12,2037,22 mph,59,5,998,321,Mc Lean,US,,,23,,12,M 1-99,,13387,579154,Patriot's,Sprint,2025
+14,Cooper Dereszynski,,NY,1057,M,4021,46,768,102,128,9,2017,22.2 mph,57,14,1051,338,Fayetteville,US,,,21,,13,M 1-99,,13387,579154,Patriot's,Sprint,2025
+15,Alex Dachos,,VA,1008,M,4045,52,780,104,139,15,2064,21.7 mph,57,8,1006,324,King George,US,,,22,,14,M 1-99,,13387,579154,Patriot's,Sprint,2025
+16,Owen Wade,,IL,1380,M,4065,6,620,83,180,22,2127,21.1 mph,62,18,1077,347,Arlington Heights,US,,,18,,15,M 1-99,,13387,579154,Patriot's,Sprint,2025
+17,Nico DeMarinis,,NY,1041,M,4115,28,725,97,136,20,2117,21.2 mph,62,17,1075,346,Katonah,US,,,23,,16,M 1-99,,13387,579154,Patriot's,Sprint,2025
+18,Fiona Davoudi,,PA,1257,F,4163,12,656,87,125,23,2139,20.9 mph,48,34,1197,385,Elkins Park,US,,,21,,2,F 1-99,,13387,579154,Patriot's,Sprint,2025
+19,Cole Whitaker,,VA,1259,M,4221,64,821,109,156,6,1992,22.5 mph,105,29,1148,370,Chesapeake,US,,,20,,17,M 1-99,,13387,579154,Patriot's,Sprint,2025
+20,Zachary Abdallah,,NJ,1184,M,4227,17,677,90,149,18,2094,21.4 mph,63,42,1244,400,Moorestown,US,,,19,,18,M 1-99,,13387,579154,Patriot's,Sprint,2025
+21,Troy Dibble,,NJ,1019,M,4228,9,631,84,131,27,2227,20.1 mph,138,21,1102,355,Montclair,US,,,19,,19,M 1-99,,13387,579154,Patriot's,Sprint,2025
+22,Isabel Mesa,,VA,1012,F,4235,25,707,94,116,29,2228,20.1 mph,51,25,1133,365,Arlington,US,,,21,,3,F 1-99,,13387,579154,Patriot's,Sprint,2025
+23,Ava Larkin,,DE,1238,F,4250,18,684,91,123,24,2174,20.6 mph,41,38,1228,395,Dover,US,,,21,,4,F 1-99,,13387,579154,Patriot's,Sprint,2025
+24,Blake Robinson,,VA,1068,M,4261,51,777,104,177,8,2017,22.2 mph,125,31,1166,375,Purcellville,US,,,22,,20,M 1-99,,13387,579154,Patriot's,Sprint,2025
+25,Kelly Smith,,NC,1035,F,4271,21,694,93,129,26,2227,20.1 mph,52,32,1169,376,Clemmons,US,,,21,,5,F 1-99,,13387,579154,Patriot's,Sprint,2025
+26,Sophie Brandwene,,PA,1070,F,4271,16,677,90,126,25,2182,20.5 mph,52,40,1235,398,Philadelphia,US,,,21,,6,F 1-99,,13387,579154,Patriot's,Sprint,2025
+27,Luke Williamson,,FL,1017,M,4279,47,769,103,161,30,2235,20 mph,70,12,1044,336,Miami,US,,,19,,21,M 1-99,,13387,579154,Patriot's,Sprint,2025
+28,Luke Francis,,NJ,1018,M,4291,14,670,89,153,42,2304,19.5 mph,61,22,1103,355,Cape May,US,,,18,,22,M 1-99,,13387,579154,Patriot's,Sprint,2025
+29,Stephen Prendiville,,FL,1009,M,4324,38,747,100,144,28,2228,20.1 mph,65,27,1140,367,Fort Myers,US,,,20,,23,M 1-99,,13387,579154,Patriot's,Sprint,2025
+30,Anthony Goatley,,MI,1014,M,4365,33,733,98,159,34,2262,19.8 mph,76,26,1134,365,Madison Heights,US,,,19,,24,M 1-99,,13387,579154,Patriot's,Sprint,2025
+31,Jack Quinn,,ME,1248,M,4409,40,750,100,166,16,2068,21.7 mph,89,55,1335,430,Cape Elizabeth,US,,,20,,25,M 1-99,,13387,579154,Patriot's,Sprint,2025
+32,Reut Shahar,,DE,1046,F,4448,23,703,94,136,46,2311,19.4 mph,50,43,1249,402,Dover,US,,,19,,7,F 1-99,,13387,579154,Patriot's,Sprint,2025
+33,Eleanor Fox,,VA,1352,F,4466,24,705,94,135,40,2299,19.5 mph,56,47,1271,409,Leesburg,US,,,22,,8,F 1-99,,13387,579154,Patriot's,Sprint,2025
+34,Lison Zeigler,,DE,1233,F,4497,42,755,101,135,33,2259,19.8 mph,54,50,1294,417,Dover,US,,,21,,9,F 1-99,,13387,579154,Patriot's,Sprint,2025
+35,Ali Polidori,,CA,1209,F,4501,32,733,98,136,39,2283,19.6 mph,61,48,1288,415,Rancho Santa Fe,US,,,21,,10,F 1-99,,13387,579154,Patriot's,Sprint,2025
+36,Justin Polcha,,VA,1271,M,4502,85,923,123,167,31,2245,19.9 mph,157,9,1011,325,Fredericksburg,US,,,22,,26,M 1-99,,13387,579154,Patriot's,Sprint,2025
+37,Sean Sawaya,,VA,1444,M,4503,77,881,117,201,4,1926,23.2 mph,96,64,1400,450,Charlottesville,US,,,26,,27,M 1-99,,13387,579154,Patriot's,Sprint,2025
+38,Tamirlan Zharmagambetov,,,1126,M,4524,48,771,103,130,47,2313,19.4 mph,53,45,1257,405,Almaty,KZ,,,22,,28,M 1-99,https://d368g9lw5ileu7.cloudfront.net/users/user63298047_profile.bJeQ0n.png,13387,579154,Patriot's,Sprint,2025
+39,Declan McQuinn,,VA,1420,M,4524,62,819,109,162,44,2308,19.4 mph,73,30,1163,374,Sterling,US,,,22,,29,M 1-99,,13387,579154,Patriot's,Sprint,2025
+40,Amanda Ballard,,DE,1206,F,4576,45,768,102,131,55,2378,18.8 mph,46,44,1254,404,Middletown,US,,,20,,11,F 1-99,,13387,579154,Patriot's,Sprint,2025
+41,Anna Stevenson,,VA,1417,F,4579,39,750,100,156,56,2379,18.8 mph,61,39,1232,397,Charlottesville,US,,,26,,12,F 1-99,,13387,579154,Patriot's,Sprint,2025
+42,Nicholas Johnstone,,VA,1441,M,4582,83,917,122,193,54,2374,18.8 mph,96,7,1003,323,Charlottesville,US,,,20,,30,M 1-99,,13387,579154,Patriot's,Sprint,2025
+43,Eli Cook,,VA,1412,M,4624,31,733,98,258,73,2562,17.5 mph,84,2,988,318,Charlottesville,US,,,21,,31,M 1-99,,13387,579154,Patriot's,Sprint,2025
+44,Galia Nahle Herrera,,DE,1047,F,4626,36,744,99,139,37,2274,19.7 mph,62,67,1407,453,Dover,US,,,19,,13,F 1-99,,13387,579154,Patriot's,Sprint,2025
+45,Ben Curulla,,VA,1193,M,4631,92,1006,134,180,45,2310,19.4 mph,136,6,999,322,Charlottesville,US,,,19,,32,M 1-99,,13387,579154,Patriot's,Sprint,2025
+46,Ethan Herrell,,VA,1363,M,4636,67,842,112,184,32,2256,19.8 mph,97,46,1258,405,Virginia Beach,US,,,20,,33,M 1-99,,13387,579154,Patriot's,Sprint,2025
+47,Onna Hermann,,WI,1010,F,4650,72,861,115,143,36,2268,19.8 mph,59,52,1321,425,Shawano,US,,,20,,14,F 1-99,,13387,579154,Patriot's,Sprint,2025
+48,Savannah Wilber,,OH,1220,F,4668,53,781,104,173,41,2303,19.5 mph,60,58,1352,435,Loveland,US,,,20,,15,F 1-99,,13387,579154,Patriot's,Sprint,2025
+49,John Devost,,VA,1351,M,4668,1,608,81,196,60,2414,18.6 mph,85,60,1367,440,Ashburn,US,,,21,,34,M 1-99,,13387,579154,Patriot's,Sprint,2025
+50,Michael Pomales,,MD,1392,M,4698,37,747,100,220,48,2320,19.3 mph,118,49,1293,416,College Park,US,,,21,,35,M 1-99,,13387,579154,Patriot's,Sprint,2025
+51,Andrew Liu,,VA,1115,M,4730,75,876,117,220,51,2354,19 mph,81,35,1199,386,Chantilly,US,,,19,,36,M 1-99,,13387,579154,Patriot's,Sprint,2025
+52,Charlie Keglovitz,,VA,1266,M,4790,74,872,116,202,35,2267,19.8 mph,105,56,1345,433,Blacksburg,US,,,20,,37,M 1-99,,13387,579154,Patriot's,Sprint,2025
+53,Andrew Klinger,,VA,1377,M,4805,86,931,124,216,59,2404,18.7 mph,73,33,1182,381,Arlington,US,,,19,,38,M 1-99,,13387,579154,Patriot's,Sprint,2025
+54,Keenan Pierce,,VA,1316,F,4806,44,759,101,201,49,2327,19.3 mph,93,70,1426,459,Herndon,US,,,20,,16,F 1-99,,13387,579154,Patriot's,Sprint,2025
+55,Samantha Minton,,MD,1020,F,4822,27,724,97,164,61,2427,18.5 mph,105,66,1403,452,Annapolis,US,,,19,,17,F 1-99,,13387,579154,Patriot's,Sprint,2025
+56,Mia Tesoriero,,TX,1359,F,4826,41,755,101,178,76,2609,17.1 mph,46,41,1239,399,Southlake,US,,,20,,18,F 1-99,,13387,579154,Patriot's,Sprint,2025
+57,Jennifer Macler,,CT,1447,F,4831,81,890,119,181,52,2369,18.8 mph,96,51,1296,417,Washington,US,,,21,,19,F 1-99,,13387,579154,Patriot's,Sprint,2025
+58,Mia Mikowski,,MD,1386,F,4877,58,803,107,194,38,2283,19.6 mph,69,80,1528,492,College Park,US,,,21,,20,F 1-99,,13387,579154,Patriot's,Sprint,2025
+59,Arthur Sloan,,RI,1251,M,4911,80,889,119,199,69,2516,17.8 mph,107,36,1200,386,East Greenwich,US,,,20,,39,M 1-99,,13387,579154,Patriot's,Sprint,2025
+60,Augusta Halle,,VA,1394,F,4937,50,775,103,180,70,2526,17.7 mph,58,63,1397,450,Charlottesville,US,,,20,,21,F 1-99,,13387,579154,Patriot's,Sprint,2025
+61,Sergio Sastre,,VA,1408,M,4960,79,884,118,239,57,2381,18.8 mph,85,62,1371,441,Charlottesville,US,,,23,,40,M 1-99,,13387,579154,Patriot's,Sprint,2025
+62,Natalie Wu,,MD,1353,F,4968,65,836,111,174,66,2505,17.8 mph,52,65,1402,451,Clarksville,US,,,21,,22,F 1-99,,13387,579154,Patriot's,Sprint,2025
+63,Averi Duncan,,PA,1073,F,4982,13,668,89,140,63,2478,18.1 mph,60,87,1636,527,Philadelphia,US,,,18,,23,F 1-99,,13387,579154,Patriot's,Sprint,2025
+64,Gabriela Herbreder,,PA,1069,F,4986,2,608,81,154,78,2641,16.9 mph,58,79,1525,491,Philadelphia,US,,,22,,24,F 1-99,,13387,579154,Patriot's,Sprint,2025
+65,Pearl Kluger,,VA,1357,F,5002,30,731,98,187,64,2485,18 mph,86,77,1513,487,Williamsburg,US,,,22,,25,F 1-99,,13387,579154,Patriot's,Sprint,2025
+66,Drew Peterson,,VA,1056,M,5029,63,819,109,190,84,2725,16.4 mph,79,37,1216,391,Sterling,US,,,19,,41,M 1-99,,13387,579154,Patriot's,Sprint,2025
+67,Madeline Halloran,,GA,1207,F,5034,29,726,97,166,72,2535,17.6 mph,90,78,1516,488,Marietta,US,,,19,,26,F 1-99,,13387,579154,Patriot's,Sprint,2025
+68,Julia Saleur,,DE,1234,F,5052,73,866,115,142,71,2529,17.6 mph,72,71,1443,464,Dover,US,,,21,,27,F 1-99,,13387,579154,Patriot's,Sprint,2025
+69,Sophie Curtis,,CT,1431,F,5060,71,860,115,188,67,2507,17.8 mph,95,68,1411,454,Darien,US,,,20,,28,F 1-99,,13387,579154,Patriot's,Sprint,2025
+70,Lasse Radloff,,VA,1376,M,5074,103,1082,144,225,50,2328,19.3 mph,68,61,1371,441,Charlottesville,US,,,21,,42,M 1-99,,13387,579154,Patriot's,Sprint,2025
+71,Lily Gage,,MD,1013,F,5075,76,877,117,176,74,2601,17.2 mph,90,54,1331,428,Annapolis,US,,,20,,29,F 1-99,,13387,579154,Patriot's,Sprint,2025
+72,Sam Northrup,,RI,1060,M,5107,97,1041,139,189,58,2398,18.7 mph,65,69,1415,455,North Kingstown,US,,,21,,43,M 1-99,,13387,579154,Patriot's,Sprint,2025
+73,Kasia- Esmeralda Wasiak,,VA,1443,F,5111,70,857,114,192,65,2501,17.9 mph,100,73,1460,470,Glen Allen,US,,,19,,30,F 1-99,,13387,579154,Patriot's,Sprint,2025
+74,Colin Kelly,,PA,1374,M,5210,56,800,107,200,62,2437,18.4 mph,122,89,1650,531,Villanova,US,,,20,,44,M 1-99,,13387,579154,Patriot's,Sprint,2025
+75,Lexi Nussbaum,,NC,1077,F,5229,43,758,101,230,68,2516,17.8 mph,84,88,1641,528,Durham,US,,,22,,31,F 1-99,,13387,579154,Patriot's,Sprint,2025
+76,Eliza Baddar,,VA,1433,F,5235,35,743,99,193,80,2667,16.7 mph,99,81,1533,494,Newport News,US,,,21,,32,F 1-99,,13387,579154,Patriot's,Sprint,2025
+77,Jacob McMurtry,,VA,1287,M,5310,95,1037,138,248,43,2307,19.4 mph,89,86,1629,524,Newport News,US,,,25,,45,M 1-99,,13387,579154,Patriot's,Sprint,2025
+78,Jane Fox,,VA,1400,F,5315,55,800,107,190,87,2746,16.3 mph,67,76,1512,487,Leesburg,US,,,18,,33,F 1-99,,13387,579154,Patriot's,Sprint,2025
+79,Ava Boyer,,VA,1354,F,5331,68,847,113,218,86,2733,16.4 mph,63,74,1471,473,Williamsburg,US,,,19,,34,F 1-99,,13387,579154,Patriot's,Sprint,2025
+80,Elise Doe,,VA,1415,F,5340,60,814,108,245,77,2625,17.1 mph,105,82,1552,500,Oakton,US,,,20,,35,F 1-99,,13387,579154,Patriot's,Sprint,2025
+81,Erika Limezs,,NC,1325,F,5344,89,977,130,257,53,2371,18.8 mph,81,90,1657,533,Valdese,US,,,20,,36,F 1-99,,13387,579154,Patriot's,Sprint,2025
+82,Hayden Rue,,VA,1410,M,5373,59,809,108,286,94,2894,15.5 mph,58,53,1325,427,Stafford,US,,,19,,46,M 1-99,,13387,579154,Patriot's,Sprint,2025
+83,Seth Parker,,VA,1298,M,5466,91,1003,134,225,82,2699,16.6 mph,44,75,1495,481,Virginia Beach,US,,,19,,47,M 1-99,,13387,579154,Patriot's,Sprint,2025
+84,Taylor Downes,,VA,1147,F,5476,34,738,98,209,88,2747,16.3 mph,117,91,1667,537,Mechanicsville,US,,,19,,37,F 1-99,,13387,579154,Patriot's,Sprint,2025
+85,Savannah Payne,,VA,1246,F,5484,78,882,118,196,83,2707,16.5 mph,71,85,1628,524,Yorktown,US,,,20,,38,F 1-99,,13387,579154,Patriot's,Sprint,2025
+86,Grace Armitage,,VA,1432,F,5505,102,1060,141,239,89,2768,16.1 mph,75,59,1363,439,Charlottesville,US,,,18,,39,F 1-99,,13387,579154,Patriot's,Sprint,2025
+87,Alex Williams,,VA,1414,F,5636,93,1022,136,211,75,2604,17.1 mph,75,97,1725,555,Haymarket,US,,,21,,40,F 1-99,,13387,579154,Patriot's,Sprint,2025
+88,Ashley Corcoran,,DC,1034,F,5671,88,969,129,265,79,2655,16.8 mph,107,92,1675,539,Washington,US,,,21,,41,F 1-99,,13387,579154,Patriot's,Sprint,2025
+89,Ruthie Buehrer,,VA,1252,F,5727,100,1044,139,216,81,2669,16.7 mph,97,95,1701,548,Blacksburg,US,,,20,,42,F 1-99,,13387,579154,Patriot's,Sprint,2025
+90,Sara Elster,,VA,1430,F,5730,69,854,114,216,98,2987,15 mph,83,84,1590,512,Charlottesville,US,,,20,,43,F 1-99,,13387,579154,Patriot's,Sprint,2025
+91,Savanah Fox,,VA,1062,F,5849,90,1000,133,229,92,2869,15.6 mph,74,93,1677,540,Rockingham,US,,,20,,44,F 1-99,,13387,579154,Patriot's,Sprint,2025
+92,Alecia Miller,,DC,1213,F,5886,99,1043,139,224,90,2833,15.8 mph,78,96,1708,550,Washington,US,,,22,,45,F 1-99,,13387,579154,Patriot's,Sprint,2025
+93,Joshua Rodarmel,,VA,1321,M,5937,84,919,123,278,96,2964,15.1 mph,76,94,1700,547,Chesapeake,US,,,19,,48,M 1-99,,13387,579154,Patriot's,Sprint,2025
+94,Niya Buckner,,VA,1307,F,5940,82,916,122,215,91,2846,15.7 mph,82,100,1881,605,Hampton,US,,,21,,46,F 1-99,,13387,579154,Patriot's,Sprint,2025
+95,Elsa Fellon,,PA,1396,F,5998,61,814,108,247,105,3429,13 mph,56,72,1454,468,Lewisburg,US,,,19,,47,F 1-99,,13387,579154,Patriot's,Sprint,2025
+96,Richard Barkett,,VA,1409,M,6030,107,1419,189,270,95,2897,15.5 mph,97,57,1347,434,Manassas,US,,,21,,49,M 1-99,,13387,579154,Patriot's,Sprint,2025
+97,Marcella Shular,,DC,1219,F,6033,106,1355,181,245,85,2732,16.4 mph,137,83,1563,503,Washington,US,,,18,,48,F 1-99,,13387,579154,Patriot's,Sprint,2025
+98,Jasmine Jimenez Lara,,DC,1210,F,6035,104,1099,147,213,93,2893,15.5 mph,72,99,1758,566,Washington,US,,,23,,49,F 1-99,,13387,579154,Patriot's,Sprint,2025
+99,Liza Angell,,VA,1416,F,6086,66,840,112,246,103,3168,14.1 mph,80,98,1753,564,Fairfax,US,,,19,,50,F 1-99,,13387,579154,Patriot's,Sprint,2025
+100,Dymonasia Williams,,VA,1308,F,6347,98,1042,139,240,97,2986,15 mph,72,102,2008,646,Hampton,US,,,20,,51,F 1-99,,13387,579154,Patriot's,Sprint,2025
+101,Adelle Patton,,DC,1214,F,6422,57,800,107,254,102,3165,14.1 mph,107,104,2096,675,Washington,US,,,19,,52,F 1-99,,13387,579154,Patriot's,Sprint,2025
+102,Melany Salcedo Benavides,,DC,1212,F,6549,101,1052,140,245,104,3223,13.9 mph,104,101,1925,620,Washington,US,,,23,,53,F 1-99,,13387,579154,Patriot's,Sprint,2025
+103,Brianna Doolittle,,DC,1211,F,6678,96,1040,139,250,101,3165,14.1 mph,103,105,2122,683,Washington,US,,,20,,54,F 1-99,,13387,579154,Patriot's,Sprint,2025
+104,Katherine Simpson-Clarke,,NC,1146,F,6874,105,1215,162,337,100,3158,14.2 mph,153,103,2012,648,Holly Springs,US,,,23,,55,F 1-99,https://d368g9lw5ileu7.cloudfront.net/users/user86649136_profile.bMjAId.png,13387,579154,Patriot's,Sprint,2025
+105,Michelle Morgan,,VA,1130,F,6892,87,942,126,231,99,3093,14.5 mph,88,107,2538,817,Hampton,US,,,21,,56,F 1-99,,13387,579154,Patriot's,Sprint,2025
+106,Jayden Randolph,,CO,1136,M,7265,5,619,82,122,107,5434,8.2 mph,58,11,1034,333,U S A F Academy,US,,,20,,50,M 1-99,,13387,579154,Patriot's,Sprint,2025
+107,Meghan Lewis,,VA,1131,F,7838,94,1023,136,246,106,4208,10.6 mph,128,106,2233,719,Hampton,US,,,20,,57,F 1-99,,13387,579154,Patriot's,Sprint,2025
+1,Samir Varma,University of Virginia,VA,739,M,3766,4,626,83,134,3,1954,22.9 mph,45,3,1007,324,Charlottesville,US,,,22,,1,M 1-99,,13387,484168,Patriot's,Sprint,2024
+2,Luke Biller,NC State,NC,352,M,3796,2,618,82,131,2,1901,23.5 mph,45,11,1101,354,Raleigh,US,,,20,,2,M 1-99,,13387,484168,Patriot's,Sprint,2024
+3,Spencer McGehee,Virginia Tech Triathlon,VA,438,M,3842,12,710,95,120,1,1879,23.8 mph,40,9,1093,352,Blacksburg,US,,,21,,3,M 1-99,,13387,484168,Patriot's,Sprint,2024
+4,Yan Son Wong,US Naval Academy,MD,381,M,3873,7,682,91,105,6,2001,22.4 mph,52,4,1033,333,Annapolis,US,,,20,,4,M 1-99,,13387,484168,Patriot's,Sprint,2024
+5,Joseph Bell,US Naval Academy,AL,428,M,3897,15,717,96,106,4,1990,22.5 mph,41,5,1044,336,Birmingham,US,,,22,,5,M 1-99,,13387,484168,Patriot's,Sprint,2024
+6,Ryan Lynch,NC State,NC,351,M,3917,3,621,83,130,9,2058,21.7 mph,50,6,1058,341,Cary,US,,,22,,6,M 1-99,,13387,484168,Patriot's,Sprint,2024
+7,Christopher Barnard,US Naval Academy,LA,425,M,3993,5,638,85,116,8,2057,21.7 mph,45,18,1137,366,Shreveport,US,,,19,,7,M 1-99,,13387,484168,Patriot's,Sprint,2024
+8,Tyler Weeks,US Naval Academy,VA,426,M,4097,43,840,112,127,7,2051,21.8 mph,76,2,1003,323,Springfield,US,,,21,,8,M 1-99,,13387,484168,Patriot's,Sprint,2024
+9,Natalie Wang,US Naval Academy,CA,513,F,4203,8,706,94,111,18,2219,20.1 mph,44,16,1124,362,San Diego,US,,,18,,1,F 1-99,,13387,484168,Patriot's,Sprint,2024
+10,Michael Magee,US Naval Academy,NY,379,M,4215,35,805,107,129,10,2073,21.6 mph,51,22,1157,372,Manlius,US,,,21,,9,M 1-99,,13387,484168,Patriot's,Sprint,2024
+11,Matthew Stelmokas,Virginia Tech Triathlon,MA,442,M,4252,1,616,82,142,25,2267,19.8 mph,60,24,1168,376,Belchertown,US,,,21,,10,M 1-99,,13387,484168,Patriot's,Sprint,2024
+12,Soleil Xie,US Naval Academy,WA,388,F,4278,10,709,94,137,13,2196,20.3 mph,51,25,1186,382,Bellevue,US,,,21,,2,F 1-99,,13387,484168,Patriot's,Sprint,2024
+13,Drew Conboy,Virginia Tech Triathlon,VA,406,M,4286,16,725,97,149,22,2242,20 mph,59,13,1111,358,Williamsburg,US,,,22,,11,M 1-99,,13387,484168,Patriot's,Sprint,2024
+14,Ava Larkin,Delaware State University,DE,367,F,4301,19,726,97,121,12,2188,20.5 mph,39,35,1228,395,Dover,US,,,20,,3,F 1-99,,13387,484168,Patriot's,Sprint,2024
+15,Dylan Cashin,US Naval Academy,NY,688,F,4348,11,710,95,121,15,2209,20.2 mph,65,42,1244,400,East Hampton,US,,,18,,4,F 1-99,,13387,484168,Patriot's,Sprint,2024
+16,Drew Yost,NC State,VA,353,M,4350,6,679,91,158,21,2240,20 mph,62,29,1211,390,Herndon,US,,,20,,12,M 1-99,,13387,484168,Patriot's,Sprint,2024
+17,Leonie Pfeiffer,Delaware State University,DE,414,F,4372,18,726,97,122,11,2159,20.7 mph,48,55,1318,424,Dover,US,,,20,,5,F 1-99,,13387,484168,Patriot's,Sprint,2024
+18,Isabel Mesa,US Naval Academy,VA,411,F,4393,20,736,98,123,23,2247,19.9 mph,63,32,1224,394,Arlington,US,,,20,,6,F 1-99,,13387,484168,Patriot's,Sprint,2024
+19,Michael Bert,US Naval Academy,KS,427,M,4438,49,852,114,127,30,2300,19.5 mph,62,10,1098,353,Lansing,US,,,20,,13,M 1-99,,13387,484168,Patriot's,Sprint,2024
+20,Eleanor Fox,University of Virginia,VA,533,F,4442,22,742,99,148,16,2211,20.2 mph,57,51,1284,413,Leesburg,US,,,21,,7,F 1-99,,13387,484168,Patriot's,Sprint,2024
+21,Kelly Smith,Virginia Tech Triathlon,NC,443,F,4465,27,772,103,132,33,2311,19.4 mph,58,26,1192,384,Clemmons,US,,,20,,8,F 1-99,,13387,484168,Patriot's,Sprint,2024
+22,Maxwell Rowe,US Naval Academy,IL,429,M,4465,42,837,112,153,31,2302,19.5 mph,53,15,1120,361,Yorkville,US,,,18,,14,M 1-99,,13387,484168,Patriot's,Sprint,2024
+23,Emely Vela,US Naval Academy,MD,696,F,4473,23,745,99,126,35,2326,19.3 mph,50,34,1227,395,Chester,US,,,21,,9,F 1-99,,13387,484168,Patriot's,Sprint,2024
+24,Kennon Downes,Virginia Tech Triathlon,VA,407,M,4476,21,737,98,163,26,2279,19.7 mph,69,36,1230,396,Mechanicsville,US,,,21,,15,M 1-99,,13387,484168,Patriot's,Sprint,2024
+25,Jordann Swearingen,US Naval Academy,CO,408,F,4478,48,851,114,125,34,2316,19.4 mph,46,20,1140,367,Thornton,US,,,19,,10,F 1-99,,13387,484168,Patriot's,Sprint,2024
+26,Michael Rogerson,University of Virginia,VA,522,M,4485,28,779,104,179,14,2207,20.2 mph,90,37,1230,396,Virginia Beach,US,,,21,,16,M 1-99,,13387,484168,Patriot's,Sprint,2024
+27,Abby Kim,US Naval Academy,MD,431,F,4486,55,932,124,137,19,2224,20.1 mph,63,17,1132,364,Annapolis,US,,,21,,11,F 1-99,,13387,484168,Patriot's,Sprint,2024
+28,Christopher Veatch,University of Virginia,VA,724,M,4491,25,751,100,198,20,2232,20 mph,73,39,1238,399,Charlottesville,US,,,26,,17,M 1-99,,13387,484168,Patriot's,Sprint,2024
+29,Charles Weber,US Naval Academy,IN,384,M,4545,37,811,108,140,38,2354,19 mph,123,14,1117,359,South Bend,US,,,19,,18,M 1-99,,13387,484168,Patriot's,Sprint,2024
+30,Olivia Jenkins,US Naval Academy,UT,409,F,4563,26,755,101,142,40,2364,18.9 mph,57,43,1245,401,Saint George,US,,,20,,12,F 1-99,,13387,484168,Patriot's,Sprint,2024
+31,Sean Sawaya,University of Virginia,MS,761,M,4563,66,1033,138,177,5,1996,22.4 mph,80,50,1277,411,Madison,US,,,25,,19,M 1-99,,13387,484168,Patriot's,Sprint,2024
+32,Ali Polidori,US Naval Academy,CA,430,F,4578,32,786,105,125,39,2363,18.9 mph,66,40,1238,399,Rancho Santa Fe,US,,,20,,13,F 1-99,,13387,484168,Patriot's,Sprint,2024
+33,Reut Shahar,Delaware State University,DE,415,F,4623,31,783,104,124,56,2462,18.2 mph,56,27,1199,386,Dover,US,,,18,,14,F 1-99,,13387,484168,Patriot's,Sprint,2024
+34,Caden Longwater,NC State,VA,356,M,4626,30,783,104,172,46,2400,18.7 mph,57,30,1215,391,Virginia Beach,US,,,19,,20,M 1-99,,13387,484168,Patriot's,Sprint,2024
+35,Cooper Dereszynski,Virginia Tech Triathlon,VA,788,M,4667,58,964,129,192,32,2310,19.4 mph,121,8,1081,348,Blacksburg,US,,,20,,21,M 1-99,,13387,484168,Patriot's,Sprint,2024
+36,Lison Zeigler,Delaware State University,DE,417,F,4667,34,797,106,149,37,2344,19 mph,57,56,1321,425,Dover,US,,,20,,15,F 1-99,,13387,484168,Patriot's,Sprint,2024
+37,Anna Stevenson,University of Virginia,VA,554,F,4669,46,843,112,163,41,2378,18.8 mph,59,33,1225,394,Charlottesville,US,,,25,,16,F 1-99,,13387,484168,Patriot's,Sprint,2024
+38,Danielle Fleurima,Delaware State University,DE,368,F,4683,33,788,105,142,50,2415,18.6 mph,62,49,1276,411,Dover,US,,,21,,17,F 1-99,,13387,484168,Patriot's,Sprint,2024
+39,amanda ballard,US Naval Academy,DE,412,F,4693,54,931,124,156,29,2295,19.5 mph,66,44,1246,401,Middletown,US,,,19,,18,F 1-99,,13387,484168,Patriot's,Sprint,2024
+40,Eli Cook,University of Virginia,VA,567,M,4730,36,806,107,240,62,2543,17.6 mph,80,7,1063,342,Charlottesville,US,,,20,,22,M 1-99,,13387,484168,Patriot's,Sprint,2024
+41,Jadyn Mullen,Roberts Wesleyan University,NY,317,F,4736,47,847,113,144,45,2391,18.8 mph,54,53,1299,418,Batavia,US,,,19,,19,F 1-99,,13387,484168,Patriot's,Sprint,2024
+42,Ethan Herrell,University of Virginia,VA,766,M,4785,63,1020,136,179,17,2218,20.2 mph,136,38,1233,397,Virginia Beach,US,,,19,,23,M 1-99,,13387,484168,Patriot's,Sprint,2024
+43,Andrew Liu,University of Virginia,VA,385,M,4815,56,944,126,189,42,2379,18.8 mph,65,41,1238,399,Chantilly,US,,,18,,24,M 1-99,,13387,484168,Patriot's,Sprint,2024
+44,Declan McQuinn,University of Virginia,VA,546,M,4817,59,966,129,199,47,2404,18.7 mph,85,23,1164,375,Sterling,US,,,21,,25,M 1-99,,13387,484168,Patriot's,Sprint,2024
+45,Ann-Sidney Ragsdale,Virginia Tech Triathlon,VA,604,F,4852,14,716,96,155,60,2532,17.6 mph,81,59,1368,440,Richmond,US,,,19,,20,F 1-99,,13387,484168,Patriot's,Sprint,2024
+46,Ashley Stanley,Delaware State University,DE,366,F,4950,52,913,122,148,51,2441,18.4 mph,62,60,1387,447,Dover,US,,,21,,21,F 1-99,,13387,484168,Patriot's,Sprint,2024
+47,Owen Clark,NC State,NC,358,M,4961,24,745,99,168,49,2413,18.6 mph,72,70,1562,503,Charlotte,US,,,18,,26,M 1-99,,13387,484168,Patriot's,Sprint,2024
+48,Rix Prakash,University of Virginia,NC,524,M,4999,72,1075,143,180,48,2413,18.6 mph,71,47,1261,406,Matthews,US,,,21,,27,M 1-99,,13387,484168,Patriot's,Sprint,2024
+49,Jenna Maendel,Roberts Wesleyan University,NY,319,F,5004,61,996,133,136,44,2389,18.8 mph,75,61,1409,454,Rifton,US,,,19,,22,F 1-99,,13387,484168,Patriot's,Sprint,2024
+50,Mia Tesoriero,University of Virginia,TX,753,F,5014,50,863,115,194,67,2642,16.9 mph,45,48,1272,409,Southlake,US,,,19,,23,F 1-99,,13387,484168,Patriot's,Sprint,2024
+51,Joane Arzalluz Garzon,Roberts Wesleyan University,,318,F,5054,9,708,94,137,72,2699,16.6 mph,50,63,1461,470,Lasarte-Oria,ES,,,20,,24,F 1-99,,13387,484168,Patriot's,Sprint,2024
+52,Connor Berne,University of Virginia,FL,774,M,5062,82,1223,163,176,53,2452,18.3 mph,73,19,1139,367,Fort Lauderdale,US,,,22,,28,M 1-99,,13387,484168,Patriot's,Sprint,2024
+53,Nicholas Johnstone,University of Virginia,VA,740,M,5092,96,1467,196,184,43,2383,18.8 mph,70,1,989,318,Charlottesville,US,,,19,,29,M 1-99,,13387,484168,Patriot's,Sprint,2024
+54,Gabriel Szybalski,Maryland Triathlon,MD,666,M,5128,84,1228,164,206,36,2330,19.3 mph,113,46,1252,403,College Park,US,,,22,,30,M 1-99,,13387,484168,Patriot's,Sprint,2024
+55,Hanna Jung,St. Thomas Aquinas,NY,344,F,5162,41,823,110,161,55,2460,18.2 mph,47,79,1672,538,Sparkill,US,,,23,,25,F 1-99,,13387,484168,Patriot's,Sprint,2024
+56,Ben Curulla,University of Virginia,VA,767,M,5165,95,1455,194,260,28,2289,19.6 mph,57,12,1105,356,Virginia Beach,US,,,18,,31,M 1-99,,13387,484168,Patriot's,Sprint,2024
+57,Onna Hermann,US Naval Academy,WI,410,F,5167,80,1183,158,169,54,2453,18.3 mph,66,52,1296,417,Shawano,US,,,19,,26,F 1-99,,13387,484168,Patriot's,Sprint,2024
+58,Jennifer Macler,University of Virginia,CT,756,F,5188,65,1033,138,188,61,2541,17.6 mph,98,58,1329,428,Washington,US,,,20,,27,F 1-99,,13387,484168,Patriot's,Sprint,2024
+59,Kathe Wilken-Yoder,Gallaudet University,DC,451,F,5205,74,1114,149,183,64,2608,17.1 mph,97,28,1203,387,Washington,US,,,22,,28,F 1-99,,13387,484168,Patriot's,Sprint,2024
+60,Christopher Johnson,NC State,NC,359,M,5232,85,1228,164,193,65,2612,17.1 mph,51,21,1148,370,Zebulon,US,,,19,,32,M 1-99,,13387,484168,Patriot's,Sprint,2024
+61,Hadi Alzayer,Maryland Triathlon,MD,487,M,5268,94,1455,194,225,24,2263,19.8 mph,76,45,1251,403,College Park,US,,,26,,33,M 1-99,,13387,484168,Patriot's,Sprint,2024
+62,MC Kistler,US Naval Academy,NC,687,F,5290,38,813,108,162,71,2694,16.6 mph,65,68,1557,501,Apex,US,,,19,,29,F 1-99,,13387,484168,Patriot's,Sprint,2024
+63,Chanelle Russell,St. Thomas Aquinas,NY,347,F,5296,68,1039,139,171,57,2473,18.1 mph,54,69,1559,502,Sparkill,US,,,20,,30,F 1-99,,13387,484168,Patriot's,Sprint,2024
+64,Savannah Wilber,NC State,OH,354,F,5297,53,916,122,193,73,2728,16.4 mph,49,62,1411,454,Loveland,US,,,19,,31,F 1-99,,13387,484168,Patriot's,Sprint,2024
+65,Pearl Kluger,University of Virginia,VA,473,F,5341,39,819,109,199,68,2645,16.9 mph,79,74,1599,515,Williamsburg,US,,,21,,32,F 1-99,,13387,484168,Patriot's,Sprint,2024
+66,Anonymous Participant,University of Virginia,,772,F,5356,64,1021,136,178,59,2514,17.8 mph,144,65,1499,482,,US,,,18,,33,F 1-99,,13387,484168,Patriot's,Sprint,2024
+67,Paige Kern,Roberts Wesleyan University,NC,320,F,5413,51,867,116,146,69,2654,16.8 mph,56,80,1690,544,Star,US,,,18,,34,F 1-99,,13387,484168,Patriot's,Sprint,2024
+68,Julia Saleur,Delaware State University,DE,369,F,5493,70,1054,141,145,70,2682,16.7 mph,65,67,1547,498,Dover,US,,,20,,35,F 1-99,,13387,484168,Patriot's,Sprint,2024
+69,Natalie Brindley,NC State,OH,357,F,5528,29,779,104,167,76,2838,15.8 mph,48,81,1695,546,Hudson,US,,,19,,36,F 1-99,,13387,484168,Patriot's,Sprint,2024
+70,Emily Isaacson,Maryland Triathlon,OH,662,F,5570,88,1286,171,231,58,2477,18.1 mph,99,64,1477,476,Beachwood,US,,,22,,37,F 1-99,,13387,484168,Patriot's,Sprint,2024
+71,Eliza Baddar,University of Virginia,VA,573,F,5571,45,843,112,188,78,2890,15.5 mph,71,71,1580,508,Newport News,US,,,20,,38,F 1-99,,13387,484168,Patriot's,Sprint,2024
+72,Lauren Johnson,Maryland Triathlon,MD,490,F,5651,73,1097,146,229,63,2587,17.3 mph,91,77,1648,530,College Park,US,,,22,,39,F 1-99,,13387,484168,Patriot's,Sprint,2024
+73,Daniel Garcia-Soliz,University of Virginia,VA,727,M,5739,87,1284,171,246,75,2764,16.2 mph,130,54,1315,423,Charlottesville,US,,,18,,34,M 1-99,,13387,484168,Patriot's,Sprint,2024
+74,Eliza Ball,University of Virginia,VA,778,F,5827,69,1046,139,249,80,2919,15.3 mph,67,66,1546,498,Mc Lean,US,,,19,,40,F 1-99,,13387,484168,Patriot's,Sprint,2024
+75,Elise Doe,University of Virginia,VA,775,F,5891,57,961,128,218,82,3003,14.9 mph,93,75,1617,520,Oakton,US,,,19,,41,F 1-99,,13387,484168,Patriot's,Sprint,2024
+76,Connor McKenzie,University of Virginia,VA,553,M,5900,77,1134,151,216,79,2913,15.4 mph,57,73,1581,509,Mc Lean,US,,,19,,35,M 1-99,,13387,484168,Patriot's,Sprint,2024
+77,Niya Buckner,Hampton University,VA,702,F,5926,62,1001,133,191,77,2851,15.7 mph,96,86,1788,575,Hampton,US,,,20,,42,F 1-99,,13387,484168,Patriot's,Sprint,2024
+78,Jordyn Bryant,Hampton University,VA,511,F,5948,40,819,109,287,84,3076,14.5 mph,62,82,1704,548,Hampton,US,,,21,,43,F 1-99,,13387,484168,Patriot's,Sprint,2024
+79,Jackie Janicki,University of Virginia,VA,754,F,5952,93,1404,187,167,85,3121,14.3 mph,45,31,1216,391,Leesburg,US,,,19,,44,F 1-99,https://d368g9lw5ileu7.cloudfront.net/users/user78573694_profile.bK7qnD.png,13387,484168,Patriot's,Sprint,2024
+80,Crystal Salit,Gallaudet University,DC,614,F,6000,75,1119,149,230,74,2763,16.2 mph,75,87,1813,584,Washington,US,,,21,,45,F 1-99,,13387,484168,Patriot's,Sprint,2024
+81,Valerie Coutinho,University of Virginia,VA,572,F,6117,92,1373,183,186,88,3135,14.3 mph,96,57,1327,427,Fairfax Station,US,,,20,,46,F 1-99,,13387,484168,Patriot's,Sprint,2024
+82,Savannah Payne,Virginia Tech Triathlon,VA,603,F,6129,76,1128,150,236,81,2953,15.1 mph,58,84,1754,565,Yorktown,US,,,19,,47,F 1-99,,13387,484168,Patriot's,Sprint,2024
+83,Emma Turner,University of Virginia,VA,749,F,6301,78,1139,152,232,93,3230,13.8 mph,120,72,1581,509,Haymarket,US,,,20,,48,F 1-99,,13387,484168,Patriot's,Sprint,2024
+84,Alex Williams,University of Virginia,VA,539,F,6316,91,1342,179,231,52,2443,18.3 mph,112,92,2188,704,Haymarket,US,,,20,,49,F 1-99,,13387,484168,Patriot's,Sprint,2024
+85,Caitlin Robinson,University of Virginia,VA,768,F,6367,86,1231,164,222,83,3011,14.9 mph,78,88,1826,588,Leesburg,US,,,20,,50,F 1-99,,13387,484168,Patriot's,Sprint,2024
+86,Talia Boren,Gallaudet University,DC,613,F,6484,79,1173,156,209,87,3128,14.3 mph,83,89,1891,609,Washington,US,,,20,,51,F 1-99,,13387,484168,Patriot's,Sprint,2024
+87,Joshua Rodarmel,NC State,VA,355,M,6599,83,1228,164,295,94,3370,13.3 mph,56,78,1651,531,Chesapeake,US,,,18,,36,M 1-99,,13387,484168,Patriot's,Sprint,2024
+88,Ishan Tamrakar,Maryland Triathlon,MD,663,M,6638,98,1732,231,254,66,2633,17 mph,233,85,1786,575,College Park,US,,,27,,37,M 1-99,,13387,484168,Patriot's,Sprint,2024
+89,Mara Land,Gallaudet University,DC,611,F,6670,60,992,132,256,86,3122,14.3 mph,119,91,2180,702,Washington,US,,,22,,52,F 1-99,,13387,484168,Patriot's,Sprint,2024
+90,Ava Boyer,University of Virginia,VA,540,F,6693,81,1218,162,262,95,3457,12.9 mph,124,76,1632,525,Williamsburg,US,,,18,,53,F 1-99,,13387,484168,Patriot's,Sprint,2024
+91,Michelle Morgan,Hampton University,VA,508,F,6749,67,1035,138,200,89,3142,14.2 mph,104,94,2268,730,Hampton,US,,,20,,54,F 1-99,,13387,484168,Patriot's,Sprint,2024
+92,Alecia Miller,Gallaudet University,DC,612,F,6835,97,1576,210,235,92,3198,14 mph,91,83,1734,558,Washington,US,,,21,,55,F 1-99,,13387,484168,Patriot's,Sprint,2024
+93,Dymonasia Williams,Hampton University,VA,701,F,7067,90,1311,175,247,90,3167,14.1 mph,153,93,2190,705,Hampton,US,,,19,,56,F 1-99,,13387,484168,Patriot's,Sprint,2024
+94,Angel Moultrie,Hampton University,VA,509,F,7277,,NA,NA,NA,,NA,,NA,95,7278,2342,Hampton,US,,,20,,57,F 1-99,,13387,484168,Patriot's,Sprint,2024
+95,Ashley Corcoran,Gallaudet University,DC,610,F,7323,99,1746,233,304,91,3190,14 mph,139,90,1946,626,Washington,US,,,20,,58,F 1-99,,13387,484168,Patriot's,Sprint,2024
+97,Sailor Eastman,US Naval Academy,VA,697,F,NA,13,712,95,116,27,2280,19.7 mph,34,,NA,NA,Haymarket,US,,,18,,,,,13387,484168,Patriot's,Sprint,2024
+98,Carson Poulos,US Naval Academy,VA,382,M,NA,17,725,97,113,,NA,,NA,,NA,NA,Virginia Beach,US,,,20,,,,,13387,484168,Patriot's,Sprint,2024
+99,Valentina Angulo,Delaware State University,DE,416,F,NA,44,840,112,130,,NA,,NA,,NA,NA,Dover,US,,,18,,,,,13387,484168,Patriot's,Sprint,2024
+100,Miguel Zarate,Maryland Triathlon,MD,489,M,NA,89,1299,173,NA,,NA,,NA,,NA,NA,College Park,US,,,22,,,,,13387,484168,Patriot's,Sprint,2024
+,Samantha Michaelson,Gallaudet University,DC,448,F,7084,71,1066,142,292,0,3796,11.8 mph,95,89,1835,591,Washington,US,,,26,,,,,13387,484168,Patriot's,Sprint,2024
+1,Joshua Berles,,NC,59,M,6678,1,1138,76,88,1,3215,27.5 mph,51,3,2188,352,Charlotte,US,,,24,,1,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+2,Rohan Takkar,Queens University of Charlotte,NC,260,M,7243,5,1230,82,89,7,3779,23.4 mph,51,1,2095,337,Charlotte,US,,,19,,2,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+3,Benjamin Capozzi,Queens University of Charlotte,NC,258,M,7319,3,1139,76,85,3,3568,24.8 mph,56,21,2472,398,Charlotte,US,,,21,,3,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+4,Joe Guthinger,Queens University of Charlotte,NC,56,M,7379,2,1138,76,89,4,3637,24.3 mph,65,20,2450,394,Charlotte,US,,,20,,4,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+5,Alex Urling,Queens University of Charlotte,NC,263,M,7557,7,1232,82,91,2,3534,25 mph,76,29,2625,422,Charlotte,US,,,20,,5,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+6,Alvaro Eugenio Rivero Franco,Queens University of Charlotte,NC,55,M,7561,8,1232,82,96,6,3768,23.5 mph,123,9,2343,377,Charlotte,US,,,22,,6,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+7,Alex Hill,Queens University of Charlotte,NC,58,M,7568,6,1230,82,103,5,3766,23.5 mph,68,17,2401,386,Charlotte,US,,,18,,7,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+8,Tyler Weeks,US Naval Academy,VA,208,M,7661,15,1388,93,100,10,3852,22.9 mph,60,7,2261,364,Springfield,US,,,22,,8,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+9,Yan Son Wong,US Naval Academy,MD,7,M,7702,12,1281,85,80,14,3936,22.5 mph,59,10,2345,377,Annapolis,US,,,21,,9,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+10,Christopher Barnard,US Naval Academy,LA,6,M,7749,10,1248,83,97,19,4049,21.8 mph,57,8,2299,370,Shreveport,US,,,20,,10,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+11,Alexander Zon,Queens University of Charlotte,NC,257,M,7795,11,1281,85,100,12,3906,22.6 mph,69,19,2440,393,Charlotte,US,,,19,,11,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+12,Alex Dachos,US Naval Academy,VA,5,M,7812,24,1433,96,117,17,4012,22.1 mph,62,4,2189,352,King George,US,,,22,,12,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+13,Clare Anne Dasso,Queens University of Charlotte,NC,255,F,7923,13,1303,87,94,15,3968,22.4 mph,57,23,2501,403,Charlotte,US,,,19,,1,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+14,Maxwell Rowe,US Naval Academy,IL,211,M,7972,33,1628,109,100,8,3836,23.1 mph,59,11,2349,378,Yorkville,US,,,19,,13,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+15,Jayden Randolph,US Naval Academy,CO,210,M,8005,14,1326,88,98,26,4271,20.7 mph,57,6,2254,363,U S A F Academy,US,,,20,,14,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+16,Charles Weber,US Naval Academy,IN,216,M,8065,23,1433,96,105,20,4091,21.7 mph,75,12,2362,380,South Bend,US,,,20,,15,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+17,Michael Bert,US Naval Academy,KS,9,M,8089,16,1392,93,89,22,4180,21.2 mph,62,13,2367,381,Lansing,US,,,21,,16,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+18,Andrew Bickford,Virginia Tech,VA,162,M,8102,40,1688,113,111,21,4116,21.6 mph,62,2,2126,342,Mc Lean,US,,,23,,17,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+19,Hugh Grennan,,VA,15,M,8186,29,1468,98,171,11,3900,22.6 mph,96,26,2552,411,Blacksburg,US,,,25,,18,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+20,Cooper Dereszynski,Virginia Tech,VA,227,M,8235,36,1634,109,99,16,3990,22.2 mph,76,18,2436,392,Blacksburg,US,,,21,,19,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+21,Joe Wilwerding,Queens University of Charlotte,NC,253,M,8330,17,1399,93,93,24,4223,20.9 mph,50,27,2566,413,Charlotte,US,,,20,,20,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+22,Cole Whitaker,Virginia Tech,VA,225,M,8331,42,1704,114,141,18,4033,22 mph,85,14,2368,381,Chesapeake,US,,,20,,21,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+23,Bradon Arrant,Queens University of Charlotte,NC,256,M,8352,18,1400,93,99,13,3929,22.5 mph,77,37,2848,458,Charlotte,US,,,19,,22,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+24,Caitlyn Jones,Virginia Tech,OH,215,F,8360,28,1464,98,107,23,4213,21.1 mph,85,22,2493,401,Hilliard,US,,,20,,2,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+25,Luke Williamson,US Naval Academy,FL,10,M,8441,34,1634,109,145,27,4333,20.5 mph,90,5,2241,361,Miami,US,,,19,,23,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+26,Anthony Goatley,US Naval Academy,MI,212,M,8556,27,1443,96,131,29,4496,19.7 mph,100,16,2387,384,Madison Heights,US,,,19,,24,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+27,Luke Francis,US Naval Academy,NJ,206,M,8613,19,1418,95,134,32,4587,19.4 mph,89,15,2386,384,Cape May,US,,,18,,25,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+28,Isabel Mesa,US Naval Academy,VA,4,F,8652,22,1427,95,85,31,4571,19.4 mph,61,24,2509,404,Arlington,US,,,21,,3,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+29,Kelly Smith,Virginia Tech,NC,219,F,8677,25,1434,96,95,28,4493,19.7 mph,65,28,2590,417,Clemmons,US,,,21,,4,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+30,John Devost,U of Virginia,VA,122,M,9006,9,1243,83,146,34,4634,19.1 mph,87,40,2897,466,Ashburn,US,,,21,,26,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+31,Anna Stevenson,,VA,127,F,9015,31,1552,103,126,36,4643,19 mph,67,30,2627,423,Charlottesville,US,,,26,,5,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+32,Jack Quinn,Virginia Tech,ME,229,M,9072,35,1634,109,181,25,4224,20.9 mph,108,42,2926,471,Cape Elizabeth,US,,,20,,27,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+33,Ali Polidori,US Naval Academy,CA,204,F,9124,26,1435,96,107,39,4784,18.6 mph,76,32,2723,438,Rancho Santa Fe,US,,,21,,6,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+34,Amanda Ballard,US Naval Academy,DE,205,F,9254,39,1657,110,106,33,4614,19.1 mph,63,36,2814,453,Middletown,US,,,20,,7,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+35,Francesca Ramirez,,NC,54,F,9349,37,1644,110,109,40,4789,18.5 mph,92,31,2716,437,Charlotte,US,,,25,,8,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+36,Declan McQuinn,U of Virginia,VA,112,M,9359,46,1903,127,132,37,4708,18.8 mph,82,25,2534,408,Sterling,US,,,22,,28,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+37,Brooklynn De Vettori,Queens University of Charlotte,NC,254,F,9421,38,1648,110,139,35,4640,19 mph,127,38,2867,461,Charlotte,US,,,21,,9,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+38,Onna Hermann,US Naval Academy,WI,3,F,9562,43,1874,125,105,38,4763,18.6 mph,62,34,2757,444,Shawano,US,,,20,,10,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+39,Adam Michailov,Virginia Tech,VA,19,M,9610,58,2272,151,135,9,3840,23.1 mph,84,48,3280,528,Blacksburg,US,,,20,,29,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+40,Caleb Keatts,Virginia Tech,VA,13,M,9752,32,1584,106,128,43,4934,17.9 mph,89,43,3018,486,Evington,US,,,20,,30,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+41,Tommy Trisciani,Virginia Tech,NY,20,M,9940,51,1964,131,185,42,4919,18 mph,75,35,2797,450,Manlius,US,,,20,,31,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+42,Madeline Halloran,US Naval Academy,GA,8,F,10056,21,1425,95,127,44,4998,17.7 mph,95,51,3413,549,Marietta,US,,,19,,11,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+43,Andrew Klinger,U of Virginia,VA,150,M,10146,54,2098,140,167,46,5070,17.5 mph,84,33,2727,439,Arlington,US,,,19,,32,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+44,Jennifer Macler,U of Virginia,CT,113,F,10186,45,1899,127,148,47,5076,17.5 mph,141,41,2922,470,Washington,US,,,21,,12,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+45,Mia Tesoriero,U of Virginia,TX,100,F,10278,41,1700,113,141,52,5456,16.2 mph,89,39,2892,465,Southlake,US,,,20,,13,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+46,Charlie Keglovitz,Virginia Tech,VA,18,M,10293,52,1988,133,146,30,4503,19.7 mph,98,53,3560,573,Blacksburg,US,,,20,,33,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+47,Patrick Drummond,Other,VA,243,M,10444,49,1926,128,217,45,5048,17.6 mph,141,44,3114,501,Fairfax,US,,,20,,34,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+48,Sam Northrup,Virginia Tech,VA,226,M,10478,56,2235,149,142,41,4867,18.2 mph,110,45,3125,503,Blacksburg,US,,,21,,35,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+49,Natalie Wu,U of Virginia,MD,293,F,10688,47,1914,128,129,50,5321,16.7 mph,69,47,3256,524,Clarksville,US,,,21,,14,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+50,Sophie Curtis,U of Virginia,VA,292,F,10836,55,2189,146,166,49,5219,17 mph,115,46,3147,506,Charlottesville,US,,,20,,15,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+51,Elsa Fellon,U of Virginia,PA,97,F,11044,44,1895,126,146,53,5521,16.1 mph,76,50,3406,548,Lewisburg,US,,,19,,16,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+52,Dillon Rose,James Madison,VA,282,M,11186,53,2002,133,246,48,5177,17.1 mph,156,54,3605,580,Maidens,US,,,22,,36,M 1-99,,13392,585319,Giant Acorn,Olympic,2025
+53,Ava Boyer,U of Virginia,VA,120,F,11312,48,1922,128,188,55,5770,15.3 mph,84,49,3349,539,Williamsburg,US,,,19,,17,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+54,Aleena Stukus,Virginia Tech,VA,228,F,11571,20,1421,95,142,54,5579,15.9 mph,126,57,4305,693,FAIRFAX STATION,US,,,20,,18,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+55,Liza Angell,U of Virginia,VA,96,F,11626,50,1948,130,231,51,5343,16.6 mph,140,56,3965,638,Fairfax,US,,,19,,19,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+56,Dahlia Shafiq,Other,MD,287,F,12753,59,2414,161,286,56,6399,13.8 mph,179,52,3475,559,Highland,US,,,21,,20,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+57,Savanah Fox,Virginia Tech,VA,12,F,13741,57,2247,150,225,57,7224,12.2 mph,100,55,3947,635,Harrisonburg,US,,,20,,21,F 1-99,,13392,585319,Giant Acorn,Olympic,2025
+,Jeremy Maclean,Queens University of Charlotte,NC,57,M,NA,4,1154,77,163,,NA,,NA,,NA,NA,Charlotte,US,,,20,,,,,13392,585319,Giant Acorn,Olympic,2025
+,Max DiMuccio,,NC,60,M,NA,30,1478,99,112,,NA,,4775,,NA,NA,Charlotte,US,,,24,,,,,13392,585319,Giant Acorn,Olympic,2025
+,Advaith Boopalam,Virginia Tech,NJ,218,M,10065,0,899,60,774,50,5232,16.9 mph,140,44,3020,486,Kendall Park,US,,,19,,,,,13392,585319,Giant Acorn,Olympic,2025
+1,Anna Stevenson,,VA,226,F,4292,2,734,98,125,2,2102,25.7 mph,89,4,1243,400,Charlottesville,US,,,26,,1,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+2,Luke Seldes,,PA,88,M,4409,13,980,131,167,1,1936,27.9 mph,127,2,1199,386,Morrisville,US,,,21,,1,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+3,Caleb Keatts,,VA,3,M,4497,3,777,104,123,4,2202,24.5 mph,101,5,1295,417,Evington,US,,,20,,2,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+4,Lucas Price,,MD,204,M,4680,6,864,115,159,3,2190,24.7 mph,152,6,1314,423,College Park,US,,,18,,3,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+5,Nicolas Hernandez,,VA,24,M,4734,8,878,117,151,9,2343,23.1 mph,119,3,1242,400,Reston,US,,,19,,4,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+6,Burke Thompson,,NJ,14,M,4744,20,1101,147,193,7,2244,24 mph,131,1,1075,346,Hightstown,US,,,18,,5,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+7,Charlie Keglovitz,,VA,10,M,4827,12,979,130,140,5,2204,24.5 mph,134,8,1371,441,Blacksburg,US,,,20,,6,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+8,Colton Gilfillan,,PA,18,M,4995,5,864,115,197,12,2457,22 mph,106,9,1371,441,Malvern,US,,,21,,7,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+9,Emerson Eatough,,MD,206,F,5081,9,902,120,144,6,2223,24.3 mph,156,17,1656,533,College Park,US,,,18,,2,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+10,Brooks Rhine,,CO,30,M,5114,11,936,125,158,13,2478,21.8 mph,118,10,1425,459,Denver,US,,,21,,8,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+11,Samuel Mead,,NY,17,M,5122,15,989,132,158,11,2454,22 mph,NA,11,1522,490,Rye,US,,,21,,9,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+12,Peter Joseph,,NJ,15,M,5134,16,990,132,167,8,2338,23.1 mph,94,12,1545,497,Ridgewood,US,,,21,,10,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+13,Rachel Keane,,MD,205,F,5288,7,875,117,153,16,2564,21.1 mph,142,13,1555,500,College Park,US,,,19,,3,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+14,Picou Spankie,,WY,175,F,5394,18,1009,135,118,14,2494,21.7 mph,124,16,1648,530,Jackson,US,,,18,,4,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+15,Sam Whelan,,SC,16,M,5502,14,986,131,210,18,2629,20.6 mph,121,14,1557,501,Mount Pleasant,US,,,22,,11,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+16,Advaith Boopalam,,NJ,27,M,5551,23,1477,197,185,10,2399,22.5 mph,125,7,1366,440,Kendall Park,US,,,19,,12,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+17,Ellie Eatmon,,CA,25,F,5569,4,777,104,180,22,2795,19.4 mph,119,18,1698,546,Rancho Palos Verdes,US,,,19,,5,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+18,Stella Meyer,,MD,239,F,5601,19,1042,139,259,15,2539,21.3 mph,140,15,1622,522,College Park,US,,,19,,6,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+19,Rachel Parmele,,VA,107,F,5622,10,909,121,133,17,2619,20.6 mph,123,21,1838,591,Blacksburg,US,,,21,,7,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+20,Sam Morse,,VA,19,M,5767,17,998,133,215,19,2702,20 mph,143,20,1710,550,University Of Richmond,US,,,21,,13,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+21,Isabella Mora Castillo,,NY,28,F,5968,1,710,95,165,24,3244,16.7 mph,146,19,1703,548,Ossining,US,,,21,,8,F 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+22,Kernan Brooks,,MD,29,M,6201,21,1164,155,301,20,2737,19.8 mph,127,22,1873,603,Baltimore,US,,,21,,14,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+23,Parker Diaz,,VA,73,M,6792,22,1230,164,402,23,3092,17.5 mph,160,23,1908,614,Henrico,US,,,22,,15,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+24,Aadhi Annamalai,,TX,22,M,7628,24,1848,246,209,21,2749,19.7 mph,149,24,2674,861,Fairview,US,,,20,,16,M 1-99,,56021,591858,Pleasant's Landing,Sprint,2025
+1,Luis Steiert,,NC,368,M,6473,13,1210,81,79,3,3118,27.7 mph,81,1,1985,319,Wingate,US,,,23,,1,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+2,Humberto Jenner,,NC,381,M,6597,1,1115,74,81,6,3249,26.7 mph,81,8,2072,334,Wingate,US,,,23,,2,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+3,Charlie Smoak,,NC,367,M,6664,7,1159,77,79,13,3323,26.1 mph,75,2,2028,326,Wingate,US,,,21,,3,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+4,Jackson Foster,,NC,363,M,6669,4,1122,75,77,7,3258,26.5 mph,73,13,2139,344,Wingate,US,,,19,,4,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+5,Boden Gentile,,VA,467,M,6684,27,1356,90,97,2,3110,27.7 mph,77,5,2043,329,Charlottesville,US,,,21,,5,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+6,Joshua Berles,,NC,398,M,6733,5,1124,75,86,4,3177,27.3 mph,74,23,2273,366,Charlotte,US,,,24,,6,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+7,Xoel Abad,,NC,376,M,6781,11,1208,81,84,12,3321,26.1 mph,79,10,2089,336,Wingate,US,,,23,,7,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+8,Jake Baugher,,NC,377,M,6785,12,1209,81,86,19,3375,25.5 mph,77,4,2039,328,Wingate,US,,,25,,8,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+9,Matteo Somma,,NC,374,M,6821,6,1158,77,83,14,3329,25.9 mph,73,15,2178,350,Wingate,US,,,18,,9,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+10,Leon Fischer,,NC,346,M,6862,9,1201,80,80,8,3275,26.5 mph,78,19,2227,358,Hickory,US,,,21,,10,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+11,Lucas Wright,,NC,362,M,6901,3,1119,75,85,17,3355,25.7 mph,69,24,2274,366,Wingate,US,,,18,,11,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+12,Rohan Takkar,,NC,412,M,6926,15,1216,81,70,22,3458,25 mph,77,11,2105,339,Charlotte,US,,,19,,12,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+13,Ugolin Anselm,,NC,355,M,6956,22,1252,83,82,24,3515,24.7 mph,73,3,2034,327,Hickory,US,,,20,,13,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+14,Till Binsteiner,,NC,380,M,6989,23,1270,85,102,10,3302,26.1 mph,82,20,2235,360,Hickory,US,,,21,,14,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+15,Bastian Luthmann,,NC,348,M,6993,53,1543,103,94,5,3206,26.9 mph,82,7,2068,333,Hickory,US,,,23,,15,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+16,Jakub Soucek,,NC,347,M,7020,17,1221,81,90,18,3368,25.7 mph,82,22,2259,364,Hickory,US,,,20,,16,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+17,Alex Schimmel,,NJ,320,M,7020,28,1358,91,86,21,3425,25.2 mph,85,6,2066,333,Clifton,US,,,20,,17,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+18,Joe Guthinger,,NC,399,M,7069,2,1116,74,90,9,3287,26.3 mph,84,41,2492,401,Charlotte,US,,,20,,18,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+19,Brandon Schimmel,,NJ,319,M,7091,29,1360,91,95,23,3475,24.8 mph,85,9,2077,334,Clifton,US,,,21,,19,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+20,Alvaro Eugenio Rivero Franco,,NC,437,M,7106,10,1206,80,103,20,3391,25.5 mph,97,28,2309,372,Charlotte,US,,,22,,20,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+21,Jeremy Maclean,,NC,420,M,7162,8,1171,78,131,1,3108,27.7 mph,74,50,2678,431,Charlotte,US,,,20,,21,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+22,Elijah Barker,,VA,306,M,7248,14,1212,81,94,16,3355,25.7 mph,109,40,2478,399,Lynchburg,US,,,18,,22,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+23,Alex Hill,,NC,406,M,7282,20,1233,82,95,30,3648,23.7 mph,96,17,2210,356,Charlotte,US,,,18,,23,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+24,Gabriel Shreve,,TN,321,M,7337,18,1225,82,97,29,3646,23.7 mph,91,25,2278,367,Fayetteville,US,,,21,,24,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+25,Bradon Arrant,,NC,400,M,7444,32,1368,91,99,28,3644,23.7 mph,109,18,2225,358,Charlotte,US,,,19,,25,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+26,Alexander Zon,,NC,402,M,7465,25,1298,87,97,26,3622,23.8 mph,94,32,2354,379,Charlotte,US,,,19,,26,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+27,Evan Bittner,,TX,332,M,7514,39,1404,94,90,34,3730,23.2 mph,88,16,2204,355,Allen,US,,,19,,27,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+28,Clare Anne Dasso,,NC,411,F,7534,21,1244,83,95,27,3636,23.8 mph,84,38,2476,398,Charlotte,US,,,19,,1,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+29,Yan Son Wong,,MD,316,M,7539,24,1271,85,82,33,3711,23.2 mph,83,33,2392,385,Annapolis,US,,,21,,28,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+30,Matt Stelmokas,,VA,413,M,7652,19,1227,82,96,40,3952,21.8 mph,92,26,2285,368,Blacksburg,US,,,22,,29,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+31,Cooper Dereszynski,,VA,499,M,7687,51,1541,103,127,31,3675,23.5 mph,99,21,2245,361,Blacksburg,US,,,21,,30,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+32,Joe Wilwerding,,NC,403,M,7801,26,1347,90,92,41,3961,21.8 mph,84,30,2317,373,Charlotte,US,,,20,,31,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+33,Stephen Mayo,,NC,340,M,7823,42,1413,94,98,35,3757,22.9 mph,80,37,2475,398,Hickory,US,,,23,,32,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+34,Cole Whitaker,,VA,343,M,7891,61,1650,110,130,32,3701,23.4 mph,98,29,2313,372,Chesapeake,US,,,20,,33,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+35,Xavier Garriques,,IL,329,M,7955,57,1555,104,91,36,3765,22.9 mph,100,36,2444,393,Lake Forest,US,,,18,,34,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+36,Luke Williamson,,FL,315,M,7999,52,1542,103,117,52,4110,21.1 mph,104,12,2126,342,Miami,US,,,19,,35,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+37,Matthias Grutz,,VA,360,M,8020,59,1579,105,150,37,3872,22.4 mph,134,27,2285,368,Forest,US,,,20,,36,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+38,Isabel Mesa,,VA,313,F,8056,30,1361,91,89,47,4037,21.4 mph,93,39,2476,398,Arlington,US,,,21,,2,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+39,Nico DeMarinis,,NY,337,M,8099,45,1520,101,112,46,4033,21.4 mph,101,31,2333,376,Katonah,US,,,23,,37,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+40,Mejd Hutchison,,VA,341,M,8225,34,1393,93,124,55,4211,20.6 mph,79,34,2419,389,Ashburn,US,,,18,,38,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+41,Kelly Smith,,NC,330,F,8315,41,1412,94,100,53,4124,20.9 mph,105,45,2574,414,Clemmons,US,,,21,,3,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+42,Kendall Leininger,,TX,324,F,8339,56,1553,104,103,44,4012,21.6 mph,110,44,2561,412,Boerne,US,,,21,,4,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+43,Thomas Votruba-Drzal,,PA,442,M,8352,68,1697,113,143,38,3885,22.2 mph,99,43,2529,407,Pittsburgh,US,,,21,,39,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+44,Ali Polidori,,CA,312,F,8447,43,1413,94,114,54,4144,20.8 mph,102,49,2674,430,Rancho Santa Fe,US,,,21,,5,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+45,Blake Robinson,,VA,344,M,8522,72,1780,119,188,39,3922,22.1 mph,129,42,2503,403,Blacksburg,US,,,22,,40,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+46,Justin Huebl,,MD,534,M,8603,58,1558,104,169,45,4012,21.6 mph,166,52,2698,434,College Park,US,,,21,,41,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+47,Charles Block,,MN,325,M,8663,66,1685,112,117,49,4055,21.3 mph,116,51,2691,433,Osseo,US,,,20,,42,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+48,Derya Ulucay,,NC,364,F,8665,36,1398,93,98,43,3995,21.7 mph,90,68,3084,496,Wingate,US,,,21,,6,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+49,Jack Quinn,,ME,500,M,8778,60,1643,110,169,50,4072,21.2 mph,125,55,2768,445,Cape Elizabeth,US,,,20,,43,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+50,Elise Collette,,VA,310,F,8779,67,1692,113,130,56,4248,20.3 mph,102,46,2606,419,Fredericksburg,US,,,20,,7,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+51,Ryan Poulsen,,TX,526,M,8788,47,1529,102,196,48,4047,21.3 mph,156,61,2861,460,Cedar Park,US,,,20,,44,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+52,Vera Swem,,NC,305,F,8796,49,1534,102,93,63,4417,19.6 mph,94,48,2659,428,Greensboro,US,,,18,,8,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+53,Slade Keaton,,NC,309,M,8796,74,1783,119,98,42,3974,21.7 mph,92,58,2849,459,Mocksville,US,,,19,,45,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+54,Francesca Ramirez,,NC,383,F,8848,54,1545,103,113,59,4318,20 mph,105,54,2768,445,Charlotte,US,,,25,,9,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+55,Theo Butler,,VA,327,M,8872,63,1680,112,129,51,4076,21.2 mph,149,57,2839,457,Suffolk,US,,,20,,46,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+56,Christopher Helm,,MA,333,M,8993,44,1426,95,167,57,4270,20.2 mph,147,65,2983,480,Canton,US,,,18,,47,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+57,Adam Michailov,,VA,345,M,9092,82,2081,139,100,25,3565,24.2 mph,115,76,3231,520,Blacksburg,US,,,20,,48,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+58,Justin Polcha,,VA,488,M,9179,88,2303,154,176,58,4279,20.2 mph,257,14,2164,348,Fredericksburg,US,,,22,,49,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+59,Brooklynn De Vettori,,NC,397,F,9207,62,1675,112,136,66,4492,19.3 mph,144,53,2760,444,Charlotte,US,,,21,,10,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+60,Naomi Dieken,,VA,308,F,9232,70,1716,114,114,64,4418,19.6 mph,135,59,2849,459,Purcellville,US,,,19,,11,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+61,Natalie Kingston,,VA,311,F,9287,69,1715,114,133,67,4513,19.1 mph,107,56,2820,454,Fredericksburg,US,,,20,,12,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+62,Jack Boland,,NC,489,M,9396,83,2110,141,162,69,4610,18.8 mph,84,35,2430,391,Matthews,US,,,19,,50,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+63,Keenan Pierce,,VA,331,F,9428,64,1682,112,164,60,4319,20 mph,182,67,3082,496,Herndon,US,,,20,,13,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+64,Samantha Minton,,FL,314,F,9439,50,1537,102,158,62,4382,19.7 mph,150,74,3212,517,Sanford,US,,,19,,14,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+65,Jaden Lucas,,IL,301,F,9440,65,1684,112,116,72,4698,18.4 mph,88,60,2854,459,Pontiac,US,,,19,,15,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+66,Lydia Couric,,VA,302,F,9520,31,1365,91,132,70,4647,18.6 mph,114,77,3261,525,Rockingham,US,,,19,,16,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+67,Campbell Cason,,SC,303,F,9639,46,1526,102,107,73,4754,18.2 mph,85,71,3168,510,Mount Pleasant,US,,,18,,17,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+68,Arthur Sloan,,RI,350,M,9728,86,2228,149,153,68,4556,18.9 mph,148,47,2644,426,East Greenwich,US,,,20,,51,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+69,Melissa Alms,,VA,425,F,9775,48,1533,102,132,79,4844,17.8 mph,136,70,3131,504,Earlysville,US,,,20,,18,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+70,Augusta Halle,,VA,460,F,9902,77,1923,128,129,74,4766,18.1 mph,108,64,2976,479,Charlottesville,US,,,20,,19,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+71,Griffin Turner,,MD,521,M,9924,85,2150,143,195,61,4339,19.9 mph,112,69,3129,504,College Park,US,,,20,,52,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+72,Drew Peterson,,VA,328,M,9973,79,1949,130,184,76,4811,18 mph,154,62,2876,463,Sterling,US,,,19,,53,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+73,Sam Northrup,,VA,349,M,9993,89,2308,154,143,65,4437,19.5 mph,130,63,2974,479,Blacksburg,US,,,21,,54,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+74,Samuel Walls,,MD,495,M,10015,33,1370,91,221,86,5103,16.9 mph,153,72,3168,510,College Park,US,,,20,,55,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+75,Brooklyn Randles,,FL,300,F,10166,73,1782,119,127,75,4800,18 mph,110,79,3349,539,Jacksonville,US,,,19,,20,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+76,Sophie Curtis,,VA,440,F,10247,84,2131,142,143,80,4850,17.8 mph,117,66,3007,484,Charlottesville,US,,,20,,21,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+77,Aleena Stukus,,VA,342,F,10276,38,1402,93,150,83,5045,17.1 mph,118,86,3561,573,Fairfax Station,US,,,20,,22,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+78,Sydney Bayle,,PA,304,F,10615,80,1957,130,122,77,4813,17.9 mph,105,87,3618,582,Edinboro,US,,,21,,23,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+79,Samuel Forcey,,MD,545,M,10808,55,1552,103,232,91,5510,15.7 mph,337,73,3177,511,College Park,US,,,19,,56,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+80,Sara Elster,,VA,439,F,10845,78,1944,130,261,87,5277,16.4 mph,148,75,3216,518,Charlottesville,US,,,20,,24,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+81,Jason Jiang,,MD,537,M,10905,92,2465,164,240,71,4672,18.5 mph,215,78,3314,533,College Park,US,,,20,,57,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+82,Eli Kopp,,VA,490,M,10941,87,2231,149,147,85,5094,17 mph,99,80,3371,543,Alexandria,US,,,18,,58,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+83,Elsa Fellon,,PA,461,F,10998,75,1848,123,186,89,5450,15.9 mph,122,82,3393,546,Lewisburg,US,,,19,,25,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+84,Micah Savarese,,MD,531,F,11031,71,1760,117,220,88,5446,15.9 mph,127,85,3478,560,College Park,US,,,21,,26,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+85,Liza Angell,,VA,441,F,11057,81,1987,132,244,81,4859,17.8 mph,230,88,3738,602,Fairfax,US,,,19,,27,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+86,Ava Boyer,,VA,463,F,11141,76,1913,128,178,92,5561,15.5 mph,106,81,3383,544,Williamsburg,US,,,19,,28,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+87,Grace Armitage,,VA,462,F,11348,90,2410,161,223,84,5091,17 mph,204,84,3421,550,Charlottesville,US,,,18,,29,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+88,Nisha Athrey,,MD,535,F,11580,94,2730,182,262,82,4942,17.5 mph,251,83,3395,546,College Park,US,,,21,,30,F 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+89,Finn Russel,,MD,530,M,11914,93,2600,173,313,78,4817,17.9 mph,294,89,3890,626,College Park,US,,,20,,59,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+90,Ellie Meyerstein,,MD,536,M,12221,91,2411,161,231,90,5480,15.8 mph,180,90,3919,631,College Park,US,,,19,,60,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+93,Alex Urling,,NC,405,M,NA,16,1221,81,107,15,3351,25.7 mph,93,,NA,NA,Charlotte,US,,,20,,61,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+94,Max DiMuccio,,NC,401,M,NA,40,1412,94,131,11,3309,26.1 mph,328,,NA,NA,Charlotte,US,,,24,,62,M 1-99,,56021,591868,Pleasant's Landing,Olympic,2025
+,Ben Babcock,,WI,307,M,NA,35,1395,93,103,0,5844,14.8 mph,NA,,NA,NA,New Berlin,US,,,19,,,,,56021,591868,Pleasant's Landing,Olympic,2025
+,Sam West,,NC,404,M,NA,37,1400,93,101,0,4086,21.2 mph,172,,NA,NA,Charlotte,US,,,19,,,,,56021,591868,Pleasant's Landing,Olympic,2025

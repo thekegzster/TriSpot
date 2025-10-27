@@ -1,14 +1,14 @@
 Name,College,State,City,Country,Gender,Age
 Boden Gentile,,VA,Charlottesville,US,M,21
-Samir Varma,,VA,Charlottesville,US,M,23
+Samir Varma,University of Virginia,VA,Charlottesville,US,M,23
 Yan Son Wong,US Naval Academy,MD,Annapolis,US,M,21
 Tyler Weeks,US Naval Academy,VA,Springfield,US,M,22
 Christopher Barnard,US Naval Academy,LA,Shreveport,US,M,20
 Take Zoot,,MD,Annapolis,US,M,21
 Warren Thiel,,VA,Blacksburg,US,M,24
-Matthew Stelmokas,,MA,Belchertown,US,M,22
+Matthew Stelmokas,Virginia Tech,MA,Belchertown,US,M,22
 Charles Weber,US Naval Academy,IN,South Bend,US,M,20
-Drew Yost,,VA,Herndon,US,M,21
+Drew Yost,NC State University,VA,Herndon,US,M,21
 Maxwell Rowe,US Naval Academy,IL,Yorkville,US,M,19
 Rebecca Jansen,,DE,Dover,US,F,20
 Andrew Bickford,Virginia Tech,VA,Mc Lean,US,M,23
@@ -21,7 +21,7 @@ Cole Whitaker,Virginia Tech,VA,Chesapeake,US,M,20
 Zachary Abdallah,,NJ,Moorestown,US,M,19
 Troy Dibble,,NJ,Montclair,US,M,19
 Isabel Mesa,US Naval Academy,VA,Arlington,US,F,21
-Ava Larkin,,DE,Dover,US,F,21
+Ava Larkin,Delaware State University,DE,Dover,US,F,21
 Blake Robinson,,VA,Purcellville,US,M,22
 Kelly Smith,Virginia Tech,NC,Clemmons,US,F,21
 Sophie Brandwene,,PA,Philadelphia,US,F,21
@@ -30,82 +30,141 @@ Luke Francis,US Naval Academy,NJ,Cape May,US,M,18
 Stephen Prendiville,,FL,Fort Myers,US,M,20
 Anthony Goatley,US Naval Academy,MI,Madison Heights,US,M,19
 Jack Quinn,Virginia Tech,ME,Cape Elizabeth,US,M,20
-Reut Shahar,,DE,Dover,US,F,19
-Eleanor Fox,,VA,Leesburg,US,F,22
-Lison Zeigler,,DE,Dover,US,F,21
+Reut Shahar,Delaware State University,DE,Dover,US,F,19
+Eleanor Fox,University of Virginia,VA,Leesburg,US,F,22
+Lison Zeigler,Delaware State University,DE,Dover,US,F,21
 Ali Polidori,US Naval Academy,CA,Rancho Santa Fe,US,F,21
 Justin Polcha,,VA,Fredericksburg,US,M,22
-Sean Sawaya,,VA,Charlottesville,US,M,26
+Sean Sawaya,University of Virginia,VA,Madison,US,M,26
 Tamirlan Zharmagambetov,,,Almaty,KZ,M,22
-Declan McQuinn,U of Virginia,VA,Sterling,US,M,22
+Declan McQuinn,University of Virginia,VA,Sterling,US,M,22
 Amanda Ballard,US Naval Academy,DE,Middletown,US,F,20
-Anna Stevenson,,VA,Charlottesville,US,F,26
-Nicholas Johnstone,,VA,Charlottesville,US,M,20
-Eli Cook,,VA,Charlottesville,US,M,21
+Anna Stevenson,University of Virginia,VA,Charlottesville,US,F,26
+Nicholas Johnstone,University of Virginia,VA,Charlottesville,US,M,20
+Eli Cook,University of Virginia,VA,Charlottesville,US,M,21
 Galia Nahle Herrera,,DE,Dover,US,F,19
-Ben Curulla,,VA,Charlottesville,US,M,19
-Ethan Herrell,,VA,Virginia Beach,US,M,20
+Ben Curulla,University of Virginia,VA,Virginia Beach,US,M,19
+Ethan Herrell,University of Virginia,VA,Virginia Beach,US,M,20
 Onna Hermann,US Naval Academy,WI,Shawano,US,F,20
-Savannah Wilber,,OH,Loveland,US,F,20
-John Devost,U of Virginia,VA,Ashburn,US,M,21
+Savannah Wilber,NC State University,OH,Loveland,US,F,20
+John Devost,University of Virginia,VA,Ashburn,US,M,21
 Michael Pomales,,MD,College Park,US,M,21
-Andrew Liu,,VA,Chantilly,US,M,19
+Andrew Liu,University of Virginia,VA,Chantilly,US,M,19
 Charlie Keglovitz,Virginia Tech,VA,Blacksburg,US,M,20
-Andrew Klinger,U of Virginia,VA,Arlington,US,M,19
+Andrew Klinger,University of Virginia,VA,Arlington,US,M,19
 Keenan Pierce,,VA,Herndon,US,F,20
 Samantha Minton,,MD,Sanford,US,F,19
-Mia Tesoriero,U of Virginia,TX,Southlake,US,F,20
-Jennifer Macler,U of Virginia,CT,Washington,US,F,21
+Mia Tesoriero,University of Virginia,TX,Southlake,US,F,20
+Jennifer Macler,University of Virginia,CT,Washington,US,F,21
 Mia Mikowski,,MD,College Park,US,F,21
 Arthur Sloan,,RI,East Greenwich,US,M,20
 Augusta Halle,,VA,Charlottesville,US,F,20
 Sergio Sastre,,VA,Charlottesville,US,M,23
-Natalie Wu,U of Virginia,MD,Clarksville,US,F,21
+Natalie Wu,University of Virginia,MD,Clarksville,US,F,21
 Averi Duncan,,PA,Philadelphia,US,F,18
 Gabriela Herbreder,,PA,Philadelphia,US,F,22
-Pearl Kluger,,VA,Williamsburg,US,F,22
+Pearl Kluger,University of Virginia,VA,Williamsburg,US,F,22
 Drew Peterson,,VA,Sterling,US,M,19
 Madeline Halloran,US Naval Academy,GA,Marietta,US,F,19
-Julia Saleur,,DE,Dover,US,F,21
-Sophie Curtis,U of Virginia,VA,Darien,US,F,20
+Julia Saleur,Delaware State University,DE,Dover,US,F,21
+Sophie Curtis,University of Virginia,VA,Darien,US,F,20
 Lasse Radloff,,VA,Charlottesville,US,M,21
 Lily Gage,,MD,Annapolis,US,F,20
 Sam Northrup,Virginia Tech,VA,North Kingstown,US,M,21
 Kasia- Esmeralda Wasiak,,VA,Glen Allen,US,F,19
 Colin Kelly,,PA,Villanova,US,M,20
 Lexi Nussbaum,,NC,Durham,US,F,22
-Eliza Baddar,,VA,Newport News,US,F,21
+Eliza Baddar,University of Virginia,VA,Newport News,US,F,21
 Jacob McMurtry,,VA,Newport News,US,M,25
 Jane Fox,,VA,Leesburg,US,F,18
-Ava Boyer,U of Virginia,VA,Williamsburg,US,F,19
-Elise Doe,,VA,Oakton,US,F,20
+Ava Boyer,University of Virginia,VA,Williamsburg,US,F,19
+Elise Doe,University of Virginia,VA,Oakton,US,F,20
 Erika Limezs,,NC,Valdese,US,F,20
 Hayden Rue,,VA,Stafford,US,M,19
 Seth Parker,,VA,Virginia Beach,US,M,19
 Taylor Downes,,VA,Mechanicsville,US,F,19
-Savannah Payne,,VA,Yorktown,US,F,20
+Savannah Payne,Virginia Tech,VA,Yorktown,US,F,20
 Grace Armitage,,VA,Charlottesville,US,F,18
-Alex Williams,,VA,Haymarket,US,F,21
-Ashley Corcoran,,DC,Washington,US,F,21
+Alex Williams,University of Virginia,VA,Haymarket,US,F,21
+Ashley Corcoran,Gallaudet University,DC,Washington,US,F,21
 Ruthie Buehrer,,VA,Blacksburg,US,F,20
 Sara Elster,,VA,Charlottesville,US,F,20
 Savanah Fox,Virginia Tech,VA,Rockingham,US,F,20
-Alecia Miller,,DC,Washington,US,F,22
-Joshua Rodarmel,,VA,Chesapeake,US,M,19
-Niya Buckner,,VA,Hampton,US,F,21
-Elsa Fellon,U of Virginia,PA,Lewisburg,US,F,19
+Alecia Miller,Gallaudet University,DC,Washington,US,F,22
+Joshua Rodarmel,NC State University,VA,Chesapeake,US,M,19
+Niya Buckner,Hampton University,VA,Hampton,US,F,21
+Elsa Fellon,University of Virginia,PA,Lewisburg,US,F,19
 Richard Barkett,,VA,Manassas,US,M,21
 Marcella Shular,,DC,Washington,US,F,18
 Jasmine Jimenez Lara,,DC,Washington,US,F,23
-Liza Angell,U of Virginia,VA,Fairfax,US,F,19
-Dymonasia Williams,,VA,Hampton,US,F,20
+Liza Angell,University of Virginia,VA,Fairfax,US,F,19
+Dymonasia Williams,Hampton University,VA,Hampton,US,F,20
 Adelle Patton,,DC,Washington,US,F,19
 Melany Salcedo Benavides,,DC,Washington,US,F,23
 Brianna Doolittle,,DC,Washington,US,F,20
 Katherine Simpson-Clarke,,NC,Holly Springs,US,F,23
-Michelle Morgan,,VA,Hampton,US,F,21
+Michelle Morgan,Hampton University,VA,Hampton,US,F,21
 Jayden Randolph,US Naval Academy,CO,U S A F Academy,US,M,20
 Meghan Lewis,,VA,Hampton,US,F,20
+Luke Biller,NC State University,NC,Raleigh,US,M,20
+Spencer McGehee,Virginia Tech,VA,Blacksburg,US,M,21
+Joseph Bell,US Naval Academy,AL,Birmingham,US,M,22
+Ryan Lynch,NC State University,NC,Cary,US,M,22
+Natalie Wang,US Naval Academy,CA,San Diego,US,F,18
+Michael Magee,US Naval Academy,NY,Manlius,US,M,21
+Soleil Xie,US Naval Academy,WA,Bellevue,US,F,21
+Drew Conboy,Virginia Tech,VA,Williamsburg,US,M,22
+Dylan Cashin,US Naval Academy,NY,East Hampton,US,F,18
+Leonie Pfeiffer,Delaware State University,DE,Dover,US,F,20
+Michael Bert,US Naval Academy,KS,Lansing,US,M,21
+Emely Vela,US Naval Academy,MD,Chester,US,F,21
+Kennon Downes,Virginia Tech,VA,Mechanicsville,US,M,21
+Jordann Swearingen,US Naval Academy,CO,Thornton,US,F,19
+Michael Rogerson,University of Virginia,VA,Virginia Beach,US,M,21
+Abby Kim,US Naval Academy,MD,Annapolis,US,F,21
+Christopher Veatch,University of Virginia,VA,Charlottesville,US,M,26
+Olivia Jenkins,US Naval Academy,UT,Saint George,US,F,20
+Caden Longwater,NC State University,VA,Virginia Beach,US,M,19
+Danielle Fleurima,Delaware State University,DE,Dover,US,F,21
+amanda ballard,US Naval Academy,DE,Middletown,US,F,19
+Jadyn Mullen,Roberts Wesleyan University,NY,Batavia,US,F,19
+Ann-Sidney Ragsdale,Virginia Tech,VA,Richmond,US,F,19
+Ashley Stanley,Delaware State University,DE,Dover,US,F,21
+Owen Clark,NC State University,NC,Charlotte,US,M,18
+Rix Prakash,University of Virginia,NC,Matthews,US,M,21
+Jenna Maendel,Roberts Wesleyan University,NY,Rifton,US,F,19
+Joane Arzalluz Garzon,Roberts Wesleyan University,,Lasarte-Oria,ES,F,20
+Connor Berne,University of Virginia,FL,Fort Lauderdale,US,M,22
+Gabriel Szybalski,University of Maryland,MD,College Park,US,M,22
+Hanna Jung,St. Thomas Aquinas,NY,Sparkill,US,F,23
+Kathe Wilken-Yoder,Gallaudet University,DC,Washington,US,F,22
+Christopher Johnson,NC State University,NC,Zebulon,US,M,19
+Hadi Alzayer,University of Maryland,MD,College Park,US,M,26
+MC Kistler,US Naval Academy,NC,Apex,US,F,19
+Chanelle Russell,St. Thomas Aquinas,NY,Sparkill,US,F,20
+Anonymous Participant,University of Virginia,,,US,F,18
+Paige Kern,Roberts Wesleyan University,NC,Star,US,F,18
+Natalie Brindley,NC State University,OH,Hudson,US,F,19
+Emily Isaacson,University of Maryland,OH,Beachwood,US,F,22
+Lauren Johnson,University of Maryland,MD,College Park,US,F,22
+Daniel Garcia-Soliz,University of Virginia,VA,Charlottesville,US,M,18
+Eliza Ball,University of Virginia,VA,Mc Lean,US,F,19
+Connor McKenzie,University of Virginia,VA,Mc Lean,US,M,19
+Jordyn Bryant,Hampton University,VA,Hampton,US,F,21
+Jackie Janicki,University of Virginia,VA,Leesburg,US,F,19
+Crystal Salit,Gallaudet University,DC,Washington,US,F,21
+Valerie Coutinho,University of Virginia,VA,Fairfax Station,US,F,20
+Emma Turner,University of Virginia,VA,Haymarket,US,F,20
+Caitlin Robinson,University of Virginia,VA,Leesburg,US,F,20
+Talia Boren,Gallaudet University,DC,Washington,US,F,20
+Ishan Tamrakar,University of Maryland,MD,College Park,US,M,27
+Mara Land,Gallaudet University,DC,Washington,US,F,22
+Angel Moultrie,Hampton University,VA,Hampton,US,F,20
+Sailor Eastman,US Naval Academy,VA,Haymarket,US,F,18
+Carson Poulos,US Naval Academy,VA,Virginia Beach,US,M,20
+Valentina Angulo,Delaware State University,DE,Dover,US,F,18
+Miguel Zarate,University of Maryland,MD,College Park,US,M,22
+Samantha Michaelson,Gallaudet University,DC,Washington,US,F,26
 Joshua Berles,,NC,Charlotte,US,M,24
 Rohan Takkar,Queens University of Charlotte,NC,Charlotte,US,M,19
 Benjamin Capozzi,Queens University of Charlotte,NC,Charlotte,US,M,21
@@ -115,7 +174,6 @@ Alvaro Eugenio Rivero Franco,Queens University of Charlotte,NC,Charlotte,US,M,22
 Alex Hill,Queens University of Charlotte,NC,Charlotte,US,M,18
 Alexander Zon,Queens University of Charlotte,NC,Charlotte,US,M,19
 Clare Anne Dasso,Queens University of Charlotte,NC,Charlotte,US,F,19
-Michael Bert,US Naval Academy,KS,Lansing,US,M,21
 Hugh Grennan,,VA,Blacksburg,US,M,25
 Joe Wilwerding,Queens University of Charlotte,NC,Charlotte,US,M,20
 Bradon Arrant,Queens University of Charlotte,NC,Charlotte,US,M,19
@@ -126,7 +184,7 @@ Adam Michailov,Virginia Tech,VA,Blacksburg,US,M,20
 Caleb Keatts,Virginia Tech,VA,Evington,US,M,20
 Tommy Trisciani,Virginia Tech,NY,Manlius,US,M,20
 Patrick Drummond,Other,VA,Fairfax,US,M,20
-Dillon Rose,James Madison,VA,Maidens,US,M,22
+Dillon Rose,James Madison University,VA,Maidens,US,M,22
 Aleena Stukus,Virginia Tech,VA,FAIRFAX STATION,US,F,20
 Dahlia Shafiq,Other,MD,Highland,US,F,21
 Jeremy Maclean,Queens University of Charlotte,NC,Charlotte,US,M,20

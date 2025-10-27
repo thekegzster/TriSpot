@@ -99,7 +99,7 @@ personalRecordsServer <- function(id, stats_df) {
       PR_T2                  = "T2"
     )
     
-    # Helper: has valid total time (non-NA, finite, >0 seconds)
+    # Helper: has valid total time
     has_sprint  <- reactive({
       df <- stats_df()
       if (nrow(df) == 0) return(FALSE)

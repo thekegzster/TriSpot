@@ -54,10 +54,35 @@ athleteInformationUI <- function(id) {
       )
     ),
     
-    # Information below images
+    #Information and College Logo
     div(
-      style = "padding: 12px;",
-      uiOutput(ns("athleteInformation"))
+      style = "
+        display: flex;
+        gap: 12px;
+        padding: 12px;
+        align-items: center;
+      ",
+      
+      # Left: details list
+      div(
+        style = "flex: 1;",
+        uiOutput(ns("athleteInformation"))
+      ),
+      
+      # Right: college logo
+      div(
+        style = "
+          position: relative;
+          width: 100px;
+          min-width: 100px;
+          padding: 80px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+        ",
+        uiOutput(ns("collegeLogo"))
+      )
+      
     )
   )
 }
@@ -68,7 +93,8 @@ athleteInformationUI <- function(id) {
 athleteInformationServer <- function(id,
                                      details_df,    # reactive 1-row df: name, college, state, country, etc.
                                      action_img,    # reactive string path/URL for action photo
-                                     headshot_img   # reactive string path/URL for headshot
+                                     headshot_img,  # reactive string path/URL for headshot
+                                     logo_img
 ) {
   moduleServer(id, function(input, output, session) {
     output$actionPhoto <- renderImage({
@@ -92,6 +118,22 @@ athleteInformationServer <- function(id,
         height      = 100
       )
     }, deleteFile = FALSE)
+    
+    output$collegeLogo <- renderUI({
+      path <- logo_img()
+      if (is.null(path)) return(NULL)
+      tags$img(
+        src = path,
+        style = "
+          max-width: 70px;
+          max-height: 70px;
+          object-fit: contain;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        "
+      )
+    })
     
     # Athlete Information list
     output$athleteInformation <- renderUI({

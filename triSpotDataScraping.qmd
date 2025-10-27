@@ -30,7 +30,7 @@ scrapeData <- function(raceID, setID, maxPages = 10){
     
     colnames(result_df) <- c("Place", "Name", "College", "State", "Bib", "Gender", "ChipTime", "SwimRank", "SwimTime", 
                              "SwimPace", "T1Time", "BikeRank", "BikeTime", "BikePace", "T2Time", "RunRank", "RunTime",
-                             "RunPace", "City", "Country", "21", "22", "Age", "24", "25", "AgeCategory", "27")
+                             "RunPace", "City", "Country", "21", "22", "Age", "24", "PlaceAgeCategory", "AgeCategory", "27")
     
     all_pages[[length(all_pages) + 1]] <- result_df
   }
@@ -41,22 +41,22 @@ scrapeData <- function(raceID, setID, maxPages = 10){
   return(final_df)
 }
 
-#df <- scrapeData(13387, 579154)
-
 ```
 
 ```{r}
-ID_Pairs <- c(13387,579154, #Patriot Sprint
-              13392, 585319, #Giant Acorn Olympic
-              56021,591858, #Pleasant Landing Sprint
-              56021, 591868) #Pleasant Landing Olympic 
+ID_Pairs <- c(13387,579154, #Patriot Sprint 2025
+              13387, 484168, #Patriot Sprint 2024
+              13392, 585319, #Giant Acorn Olympic 2025
+              #13392, 484197, #Giant Acorn Olympic 2024
+              56021,591858, #Pleasant Landing Sprint 2025
+              56021, 591868) #Pleasant Landing Olympic 2025
 
 raceID_df <- matrix(ID_Pairs, ncol = 2, byrow = TRUE) |>
   as_tibble(.name_repair = "minimal") |>
   setNames(c("race_id", "set_id")) |> 
-  mutate(raceName = c("Patriot's", "Giant Acorn", "Pleasant's Landing", "Pleasant's Landing")) |> 
-  mutate(raceDistance = c("Sprint", "Olympic", "Sprint", "Olympic")) |> 
-  mutate(year = c(2025, 2025, 2025, 2025))
+  mutate(raceName = c("Patriot's", "Patriot's","Giant Acorn","Pleasant's Landing", "Pleasant's Landing")) |> 
+  mutate(raceDistance = c("Sprint", "Sprint","Olympic","Sprint", "Olympic")) |> 
+  mutate(year = c(2025, 2024, 2025, 2025, 2025))
 
 ```
 
@@ -127,8 +127,6 @@ filterResults <- function(results_df, name){
   advancedDetails
 }
 
-filterResults(all_results, "Charlie Keglovitz")
-
 ```
 
 ```{r}
@@ -136,6 +134,27 @@ uniqueNames <- unique(all_results$Name)
 all_df <- map_dfr(uniqueNames, ~ filterResults(all_results, .x))
 athleteInformation_df <- all_df |> 
   select(Name, College, State, City, Country, Gender, Age)
+
+collegeNameCorrections <- c(
+  "Virginia Tech Triathlon" = "Virginia Tech",
+  "Maryland Triathlon" = "University of Maryland",
+  "NC State" = "NC State University",
+  "U of Virginia" = "University of Virginia",
+  "James Madison" = "James Madison University"
+)
+
+fixNames <- function(df, column, lookup){
+  old_values <- df[[column]]
+  needs_fix <- old_values %in% names(lookup)
+  df[[column]] <- ifelse(
+    needs_fix,
+    lookup[old_values],
+    old_values
+  )
+  return(df)
+}
+
+athleteInformation_df <- fixNames(athleteInformation_df, "College", collegeNameCorrections)
 
 pr_df <- all_df |> 
   select(-College, -State, -City, -Country, -Gender, -Age)
@@ -152,7 +171,7 @@ to_seconds <- function(x) {
   as.integer(parsed)  # seconds
 }
 
-time_cols <- c(
+pr_time_cols <- c(
   "PR_Time_Sprint","PR_Swim_Time_Sprint","PR_Swim_Pace_Sprint",
   "PR_Bike_Time_Sprint","PR_Run_Time_Sprint","PR_Run_Pace_Sprint",
   "PR_Time_Olympic","PR_Swim_Time_Olympic","PR_Swim_Pace_Olympic",
@@ -160,12 +179,21 @@ time_cols <- c(
   "PR_T1","PR_T2"
 )
 
+results_time_columns <- c(
+  "ChipTime", "SwimTime", "SwimPace", "T1Time", "BikeTime",
+  "T2Time", "RunTime", "RunPace"
+)
+
 pr_df <- pr_df |>
-  mutate(across(all_of(time_cols), to_seconds))
+  mutate(across(all_of(pr_time_cols), to_seconds))
+
+all_results <- all_results |>
+  mutate(across(all_of(results_time_columns), to_seconds))
 ```
 
 ```{r}
 write_csv(pr_df, "personalRecords.csv")
+write_csv(all_results, "allResults.csv")
 write_csv(athleteInformation_df, "athleteInformation.csv")
 ```
 
