@@ -5,6 +5,8 @@ library(rlang)
 #Source Files
 source("athleteInformation.R")
 source("personalRecords.R")
+source("athleteRaceResults.R")
+
 source("raceResults.R")
 
 
@@ -73,7 +75,7 @@ server <- function(input, output, session) {
   #Get athlete photos
   action_photo <- reactive({
     path <- normalizePath(
-      file.path("www", "actions", paste0(selected_athlete(), "_action.png")),
+      file.path("www", "actions", paste0(selected_athlete(), "_action.jpg")),
       mustWork = FALSE
     )
     if (!file.exists(path)) {
@@ -85,7 +87,7 @@ server <- function(input, output, session) {
   
   headshot_photo <- reactive({
     path <- normalizePath(
-      file.path("www", "headshots", paste0(selected_athlete(), "_headshot.jpg")),
+      file.path("www", "headshots", paste0(selected_athlete(), "_headshot.png")),
       mustWork = FALSE
     )
     if (!file.exists(path)) {
@@ -123,11 +125,19 @@ server <- function(input, output, session) {
                ),
                # Personal Records Panel
                absolutePanel(
-                 top    = "5%", 
+                 top    = "6%", 
                  bottom = "2%",
                  left   = "30%",   
-                 width  = "25%", 
+                 width  = "20%", 
                  personalRecordsUI("personalRecords")
+               ),
+               # Athlete Race Results Panel
+               absolutePanel(
+                 top    = "6%", 
+                 bottom = "2%",
+                 right  = "2%",   
+                 width  = "47%", 
+                 athleteRaceResultsUI("athleteRaceResults")
                )
       )
     ))
@@ -170,8 +180,17 @@ server <- function(input, output, session) {
   # Personal records server
   personalRecordsServer(
     id = "personalRecords",
-    stats_df = reactive({
+    data = reactive({
       prData |> 
+        filter(Name == selected_athlete())
+    })
+  )
+  
+  # Athlete Race Results Server
+  athleteRaceResultsServer(
+    id = "athleteRaceResults",
+    data = reactive({
+      allResults |> 
         filter(Name == selected_athlete())
     })
   )

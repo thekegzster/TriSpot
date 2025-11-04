@@ -22,17 +22,19 @@ personalRecordsUI <- function(id) {
     
     div(
       style = "
-        background: linear-gradient(90deg, #007bff, #00bcd4);
+        display:flex; align-items:center; justify-content:center;
+        background: linear-gradient(90deg, #1e3a8a, #0f766e);
         color: white;
-        text-align: center;
-        padding: 16px;
-        font-size: 1.4em;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+        padding: 14px 16px;
       ",
-      "Personal Records"
+      tags$h3(
+        "Personal Records",
+        style = "margin:0; font-weight:700; letter-spacing:.3px; text-align:center;"
+      )
     ),
+    
+    #Border between header and table
+    div(style="height:3px; background:linear-gradient(90deg,#0ea5e950,#22c55e50);"),
     
     #Tabs
     uiOutput(ns("tabs")),
@@ -46,7 +48,7 @@ personalRecordsUI <- function(id) {
 # --------------------------------------------------
 # SERVER: Athlete PR Info Card Logic
 # --------------------------------------------------
-personalRecordsServer <- function(id, stats_df) {
+personalRecordsServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
     
     time_cols <- c("PR_Time_Sprint", "PR_Swim_Time_Sprint", "PR_Swim_Pace_Sprint", "PR_Bike_Time_Sprint", "PR_Run_Time_Sprint",
@@ -91,7 +93,7 @@ personalRecordsServer <- function(id, stats_df) {
       PR_Swim_Time_Olympic   = "Swim Time",
       PR_Swim_Pace_Olympic   = "Swim Pace",
       PR_Bike_Time_Olympic   = "Bike Time",
-      PR_Bike_Pace_Olympic    = "Bike Pace",
+      PR_Bike_Pace_Olympic   = "Bike Pace",
       PR_Run_Time_Olympic    = "Run Time",
       PR_Run_Pace_Olympic    = "Run Pace",
       PR_Time_Olympic        = "Total Time",
@@ -101,14 +103,14 @@ personalRecordsServer <- function(id, stats_df) {
     
     # Helper: has valid total time
     has_sprint  <- reactive({
-      df <- stats_df()
+      df <- data()
       if (nrow(df) == 0) return(FALSE)
       v <- suppressWarnings(as.numeric(df$PR_Time_Sprint[1]))
       !is.na(v) && is.finite(v) && v > 0
     })
     
     has_olympic <- reactive({
-      df <- stats_df()
+      df <- data()
       if (nrow(df) == 0) return(FALSE)
       v <- suppressWarnings(as.numeric(df$PR_Time_Olympic[1]))
       !is.na(v) && is.finite(v) && v > 0
@@ -125,7 +127,7 @@ personalRecordsServer <- function(id, stats_df) {
         return(div(style="padding:12px; color:#666;", "No personal records to display yet."))
       }
       
-      # Choose a sensible selected tab (persist current if still valid)
+      # Choose a sensible selected tab
       current <- input$distance_tab
       valid_vals <- c(if (has_sprint()) "sprint", if (has_olympic()) "olympic")
       selected <- if (is.null(current) || !(current %in% valid_vals)) valid_vals[1] else current
@@ -193,8 +195,8 @@ personalRecordsServer <- function(id, stats_df) {
       current <- input$distance_tab
       if (is.null(current)) current <- if (has_sprint()) "sprint" else "olympic"
       
-      tbl <- if (identical(current, "olympic")) build_table(stats_df, olympic_cols)
-      else                              build_table(stats_df, sprint_cols)
+      tbl <- if (identical(current, "olympic")) build_table(data, olympic_cols)
+      else                              build_table(data, sprint_cols)
       
       tagList(
         tags$table(
